@@ -114,6 +114,10 @@
       </div>
     </header>
     <HomePage/>
+<!--    <SinglePage/>-->
+<!--    <AboutUsPage/>-->
+<!--    <ContactsPage/>-->
+<!--    <GalleryPage/>-->
     <footer class="footer">
       <div class="footer__top padding-top padding-bottom"
            style="background-image:url(../assets/images/footer/bg.jpg)">
@@ -262,10 +266,14 @@
 
 <script>
 import HomePage from "@/pages/HomePage";
+import SinglePage from "@/pages/SinglePage";
+import AboutUsPage from "@/pages/AboutUsPage";
+import ContactsPage from "@/pages/ContactsPage";
+import GalleryPage from "@/pages/GalleryPage";
 
 export default {
   name: "MainLayout",
-  components: {HomePage},
+  components: {GalleryPage, ContactsPage, AboutUsPage, SinglePage, HomePage},
 }
 </script>
 

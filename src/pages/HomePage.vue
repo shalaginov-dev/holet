@@ -18,11 +18,11 @@ import Banner from "@/components/HomePage/Banner";
 import FindProperties from "@/components/HomePage/FindProperties";
 import FeatProperties from "@/components/HomePage/FeatProperties";
 import RecentProperties from "@/components/HomePage/RecentProperties";
-import Agents from "@/components/HomePage/Agents";
+import Agents from "@/components/Agents";
 import Testimonial from "@/components/HomePage/Testimonial";
 import Blog from "@/components/HomePage/Blog";
 import CTA from "@/components/HomePage/CTA";
-import Newsletter from "@/components/HomePage/Newsletter";
+import Newsletter from "@/components/Newsletter";
 
 export default {
   name: "HomePage",

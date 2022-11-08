@@ -1,5 +1,5 @@
 <template>
-  <section class="newsletter" style="background-image:url(../../assets/images/newsletter/bg.jpg)">
+  <section class="newsletter" style="background-image:url(https://images.wallpaperscraft.ru/image/single/poverhnost_temnyy_fon_tekstura_50754_1920x1080.jpg)">
     <div class="container">
       <div class="newsletter__wrapper">
         <div class="row g-4 align-items-center">
@@ -21,7 +21,6 @@
       </div>
     </div>
   </section>
-
 </template>
 
 <script>
