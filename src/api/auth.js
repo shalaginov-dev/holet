@@ -1,6 +1,6 @@
 import httpClient from "./httpClient.js";
 import axios from "axios";
-import store from '../store';
+import store from '../store/store';
 import { doRegister } from "src/store/auth/actions.js";
 
 // const store = useStore(); 
