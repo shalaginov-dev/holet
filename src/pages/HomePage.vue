@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import Swiper from '@/assets/js/swiper-bundle.min.js'
+import Swiper from '@/assets/MainLayout/js/swiper-bundle.min.js'
 import Banner from "@/components/HomePage/Banner";
 import FindProperties from "@/components/HomePage/FindProperties";
 import FeatProperties from "@/components/HomePage/FeatProperties";

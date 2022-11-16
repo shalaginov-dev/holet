@@ -3,7 +3,7 @@
     <div class="property__item">
       <div class="property__item-inner">
         <div class="property__item-thumb">
-          <img src="../../../assets/images/property/01.jpg" alt="Property Images">
+          <img src="../../../assets/MainLayout/images/property/01.jpg" alt="Property Images">
           <div class="badge badge--sale">For Sale</div>
           <div class="badge badge--offer">New</div>
         </div>

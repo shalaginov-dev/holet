@@ -20,7 +20,7 @@
           <div class="col-xl-3 col-lg-4 col-sm-6 gallery__grid-item  flat">
             <div class="gallery__item">
               <div class="gallery__item-inner">
-                <img src="../../assets/images/property/01.jpg" alt="Property Image">
+                <img src="../../assets/MainLayout/images/property/01.jpg" alt="Property Image">
                 <div class="gallery__item-content">
                   <h4><a href="property-single.html">Eden Garden Plaza</a></h4>
                   <p>
@@ -34,7 +34,7 @@
           <div class="col-xl-3 col-lg-4 col-sm-6 gallery__grid-item  com">
             <div class="gallery__item">
               <div class="gallery__item-inner">
-                <img src="../../assets/images/property/02.jpg" alt="Property Image">
+                <img src="../../assets/MainLayout/images/property/02.jpg" alt="Property Image">
                 <div class="gallery__item-content">
                   <h4><a href="property-single.html">Eden Garden Plaza</a></h4>
                   <p>
@@ -48,7 +48,7 @@
           <div class="col-xl-3 col-lg-4 col-sm-6 gallery__grid-item office">
             <div class="gallery__item">
               <div class="gallery__item-inner">
-                <img src="../../assets/images/property/03.jpg" alt="Property Image">
+                <img src="../../assets/MainLayout/images/property/03.jpg" alt="Property Image">
                 <div class="gallery__item-content">
                   <h4><a href="property-single.html">Eden Garden Plaza</a></h4>
                   <p>
@@ -62,7 +62,7 @@
           <div class="col-xl-3 col-lg-4 col-sm-6 gallery__grid-item cottage flat">
             <div class="gallery__item">
               <div class="gallery__item-inner">
-                <img src="../../assets/images/property/04.jpg" alt="Property Image">
+                <img src="../../assets/MainLayout/images/property/04.jpg" alt="Property Image">
                 <div class="gallery__item-content">
                   <h4><a href="property-single.html">Eden Garden Plaza</a></h4>
                   <p>
@@ -76,7 +76,7 @@
           <div class="col-xl-3 col-lg-4 col-sm-6 gallery__grid-item flat com">
             <div class="gallery__item">
               <div class="gallery__item-inner">
-                <img src="../../assets/images/property/05.jpg" alt="Property Image">
+                <img src="../../assets/MainLayout/images/property/05.jpg" alt="Property Image">
                 <div class="gallery__item-content">
                   <h4><a href="property-single.html">Eden Garden Plaza</a></h4>
                   <p>
@@ -90,7 +90,7 @@
           <div class="col-xl-3 col-lg-4 col-sm-6 gallery__grid-item com">
             <div class="gallery__item">
               <div class="gallery__item-inner">
-                <img src="../../assets/images/property/06.jpg" alt="Property Image">
+                <img src="../../assets/MainLayout/images/property/06.jpg" alt="Property Image">
                 <div class="gallery__item-content">
                   <h4><a href="property-single.html">Eden Garden Plaza</a></h4>
                   <p>
@@ -104,7 +104,7 @@
           <div class="col-xl-3 col-lg-4 col-sm-6 gallery__grid-item flat">
             <div class="gallery__item">
               <div class="gallery__item-inner">
-                <img src="../../assets/images/property/07.jpg" alt="Property Image">
+                <img src="../../assets/MainLayout/images/property/07.jpg" alt="Property Image">
                 <div class="gallery__item-content">
                   <h4><a href="property-single.html">Eden Garden Plaza</a></h4>
                   <p>
@@ -118,7 +118,7 @@
           <div class="col-xl-3 col-lg-4 col-sm-6 gallery__grid-item cottage">
             <div class="gallery__item">
               <div class="gallery__item-inner">
-                <img src="../../assets/images/property/08.jpg" alt="Property Image">
+                <img src="../../assets/MainLayout/images/property/08.jpg" alt="Property Image">
                 <div class="gallery__item-content">
                   <h4><a href="property-single.html">Eden Garden Plaza</a></h4>
                   <p>
@@ -132,7 +132,7 @@
           <div class="col-xl-3 col-lg-4 col-sm-6 gallery__grid-item office">
             <div class="gallery__item">
               <div class="gallery__item-inner">
-                <img src="../../assets/images/property/09.jpg" alt="Property Image">
+                <img src="../../assets/MainLayout/images/property/09.jpg" alt="Property Image">
                 <div class="gallery__item-content">
                   <h4><a href="property-single.html">Eden Garden Plaza</a></h4>
                   <p>
@@ -146,7 +146,7 @@
           <div class="col-xl-3 col-lg-4 col-sm-6 gallery__grid-item flat">
             <div class="gallery__item">
               <div class="gallery__item-inner">
-                <img src="../../assets/images/property/10.jpg" alt="Property Image">
+                <img src="../../assets/MainLayout/images/property/10.jpg" alt="Property Image">
                 <div class="gallery__item-content">
                   <h4><a href="property-single.html">Eden Garden Plaza</a></h4>
                   <p>
@@ -160,7 +160,7 @@
           <div class="col-xl-3 col-lg-4 col-sm-6 gallery__grid-item com">
             <div class="gallery__item">
               <div class="gallery__item-inner">
-                <img src="../../assets/images/property/11.jpg" alt="Property Image">
+                <img src="../../assets/MainLayout/images/property/11.jpg" alt="Property Image">
                 <div class="gallery__item-content">
                   <h4><a href="property-single.html">Eden Garden Plaza</a></h4>
                   <p>
@@ -174,7 +174,7 @@
           <div class="col-xl-3 col-lg-4 col-sm-6 gallery__grid-item com">
             <div class="gallery__item">
               <div class="gallery__item-inner">
-                <img src="../../assets/images/property/12.jpg" alt="Property Image">
+                <img src="../../assets/MainLayout/images/property/12.jpg" alt="Property Image">
                 <div class="gallery__item-content">
                   <h4><a href="property-single.html">Eden Garden Plaza</a></h4>
                   <p>

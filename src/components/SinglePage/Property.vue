@@ -64,7 +64,7 @@
                     <div class="swiper-slide">
                       <div class="featProp2__item">
                         <div class="featProp2__item-thumb">
-                          <img src="../../assets/images/property/single/gallery/01.jpg" alt="Property Image">
+                          <img src="../../assets/MainLayout/images/property/single/gallery/01.jpg" alt="Property Image">
                           <div class="featProp2__item-content">
                             <h4><a href="property-single.html">Dining room</a></h4>
                           </div>
@@ -74,7 +74,7 @@
                     <div class="swiper-slide">
                       <div class="featProp2__item">
                         <div class="featProp2__item-thumb">
-                          <img src="../../assets/images/property/single/gallery/02.jpg" alt="Property Image">
+                          <img src="../../assets/MainLayout/images/property/single/gallery/02.jpg" alt="Property Image">
 
                           <div class="featProp2__item-content">
                             <h4><a href="property-single.html">Garden Space</a></h4>
@@ -85,7 +85,7 @@
                     <div class="swiper-slide">
                       <div class="featProp2__item">
                         <div class="featProp2__item-thumb">
-                          <img src="../../assets/images/property/single/gallery/03.jpg" alt="Property Image">
+                          <img src="../../assets/MainLayout/images/property/single/gallery/03.jpg" alt="Property Image">
 
                           <div class="featProp2__item-content">
                             <h4><a href="property-single.html">Master Bed Room</a></h4>
@@ -96,7 +96,7 @@
                     <div class="swiper-slide">
                       <div class="featProp2__item">
                         <div class="featProp2__item-thumb">
-                          <img src="../../assets/images/property/single/gallery/04.jpg" alt="Property Image">
+                          <img src="../../assets/MainLayout/images/property/single/gallery/04.jpg" alt="Property Image">
 
                           <div class="featProp2__item-content">
                             <h4><a href="property-single.html">Car Parking Garrage</a></h4>
@@ -107,7 +107,7 @@
                     <div class="swiper-slide">
                       <div class="featProp2__item">
                         <div class="featProp2__item-thumb">
-                          <img src="../../assets/images/property/single/gallery/05.jpg" alt="Property Image">
+                          <img src="../../assets/MainLayout/images/property/single/gallery/05.jpg" alt="Property Image">
 
                           <div class="featProp2__item-content">
                             <h4><a href="property-single.html">Drawing Space</a></h4>
@@ -122,27 +122,27 @@
                     <div class="swiper-wrapper">
                       <div class="swiper-slide">
                         <div class="featProp2__thumb-item">
-                          <img src="../../assets/images/property/single/gallery/01.jpg" alt="Property Image">
+                          <img src="../../assets/MainLayout/images/property/single/gallery/01.jpg" alt="Property Image">
                         </div>
                       </div>
                       <div class="swiper-slide">
                         <div class="featProp2__thumb-item">
-                          <img src="../../assets/images/property/single/gallery/02.jpg" alt="Property Image">
+                          <img src="../../assets/MainLayout/images/property/single/gallery/02.jpg" alt="Property Image">
                         </div>
                       </div>
                       <div class="swiper-slide">
                         <div class="featProp2__thumb-item">
-                          <img src="../../assets/images/property/single/gallery/03.jpg" alt="Property Image">
+                          <img src="../../assets/MainLayout/images/property/single/gallery/03.jpg" alt="Property Image">
                         </div>
                       </div>
                       <div class="swiper-slide">
                         <div class="featProp2__thumb-item">
-                          <img src="../../assets/images/property/single/gallery/04.jpg" alt="Property Image">
+                          <img src="../../assets/MainLayout/images/property/single/gallery/04.jpg" alt="Property Image">
                         </div>
                       </div>
                       <div class="swiper-slide">
                         <div class="featProp2__thumb-item">
-                          <img src="../../assets/images/property/single/gallery/05.jpg" alt="Property Image">
+                          <img src="../../assets/MainLayout/images/property/single/gallery/05.jpg" alt="Property Image">
                         </div>
                       </div>
                     </div>
@@ -286,7 +286,7 @@
                           <li class="nearPlace__item">
                             <div class="nearPlace__item-name">
                               <div class="nearPlace__item-thumb">
-                                <img src="../../assets/images/property/01.jpg" alt="Place image">
+                                <img src="../../assets/MainLayout/images/property/01.jpg" alt="Place image">
                               </div>
                               <div class="nearPlace__item-title">
                                 <h6>School</h6>
@@ -298,7 +298,7 @@
                           <li class="nearPlace__item">
                             <div class="nearPlace__item-name">
                               <div class="nearPlace__item-thumb">
-                                <img src="../../assets/images/property/02.jpg" alt="Place image">
+                                <img src="../../assets/MainLayout/images/property/02.jpg" alt="Place image">
                               </div>
                               <div class="nearPlace__item-title">
                                 <h6>Market</h6>
@@ -310,7 +310,7 @@
                           <li class="nearPlace__item">
                             <div class="nearPlace__item-name">
                               <div class="nearPlace__item-thumb">
-                                <img src="../../assets/images/property/03.jpg" alt="Place image">
+                                <img src="../../assets/MainLayout/images/property/03.jpg" alt="Place image">
                               </div>
                               <div class="nearPlace__item-title">
                                 <h6>Hospital</h6>
@@ -322,7 +322,7 @@
                           <li class="nearPlace__item">
                             <div class="nearPlace__item-name">
                               <div class="nearPlace__item-thumb">
-                                <img src="../../assets/images/property/04.jpg" alt="Place image">
+                                <img src="../../assets/MainLayout/images/property/04.jpg" alt="Place image">
                               </div>
                               <div class="nearPlace__item-title">
                                 <h6>University</h6>
@@ -372,7 +372,7 @@
                            aria-labelledby="floor-tab1" tabindex="0">
                         <div class="floorPlan__item">
                           <div class="floorPlan__thumb">
-                            <img src="../../assets/images/property/floor/01.jpg" alt="floor plan image">
+                            <img src="../../assets/MainLayout/images/property/floor/01.jpg" alt="floor plan image">
                           </div>
                           <div class="floorPlan__content">
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, consequatur sed! Dolor
@@ -387,7 +387,7 @@
                            tabindex="0">
                         <div class="floorPlan__item">
                           <div class="floorPlan__thumb">
-                            <img src="../../assets/images/property/floor/02.jpg" alt="floor plan image">
+                            <img src="../../assets/MainLayout/images/property/floor/02.jpg" alt="floor plan image">
                           </div>
                           <div class="floorPlan__content">
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, consequatur sed! Dolor
@@ -402,7 +402,7 @@
                            tabindex="0">
                         <div class="floorPlan__item">
                           <div class="floorPlan__thumb">
-                            <img src="../../assets/images/property/floor/03.jpg" alt="floor plan image">
+                            <img src="../../assets/MainLayout/images/property/floor/03.jpg" alt="floor plan image">
                           </div>
                           <div class="floorPlan__content">
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In, consequatur sed! Dolor
@@ -428,7 +428,7 @@
                   <div class="row g-4">
                     <div class="col-md-4">
                       <div class="agent__profile-pic">
-                        <img src="../../assets/images/agent/01.jpg" alt="Agent Profile pic">
+                        <img src="../../assets/MainLayout/images/agent/01.jpg" alt="Agent Profile pic">
                       </div>
                     </div>
                     <div class="col-md-8">
@@ -499,7 +499,7 @@
                       <div class="property__item">
                         <div class="property__item-inner">
                           <div class="property__item-thumb">
-                            <img src="../../assets/images/property/02.jpg" alt="Property Images">
+                            <img src="../../assets/MainLayout/images/property/02.jpg" alt="Property Images">
                             <div class="badge badge--sale">For Sale</div>
                             <div class="badge badge--offer">New</div>
                           </div>
@@ -522,7 +522,7 @@
                       <div class="property__item">
                         <div class="property__item-inner">
                           <div class="property__item-thumb">
-                            <img src="../../assets/images/property/03.jpg" alt="Property Images">
+                            <img src="../../assets/MainLayout/images/property/03.jpg" alt="Property Images">
                             <div class="badge badge--sale">For Sale</div>
                           </div>
                           <div class="property__item-content">
@@ -544,7 +544,7 @@
                       <div class="property__item">
                         <div class="property__item-inner">
                           <div class="property__item-thumb">
-                            <img src="../../assets/images/property/04.jpg" alt="Property Images">
+                            <img src="../../assets/MainLayout/images/property/04.jpg" alt="Property Images">
                             <div class="badge badge--rent">For Rent</div>
                           </div>
                           <div class="property__item-content">
@@ -794,7 +794,7 @@
                       <div class="swiper-slide">
                         <div class="widget--featProp-item">
                           <div class="widget--featProp-thumb">
-                            <img src="../../assets/images/property/01.jpg" alt="Propety Images">
+                            <img src="../../assets/MainLayout/images/property/01.jpg" alt="Propety Images">
                           </div>
                           <div class="widget--featProp-content">
                             <h6><a href="propert-single.html">Mountain Villa</a></h6>
@@ -805,7 +805,7 @@
                       <div class="swiper-slide">
                         <div class="widget--featProp-item">
                           <div class="widget--featProp-thumb">
-                            <img src="../../assets/images/property/02.jpg" alt="Propety Images">
+                            <img src="../../assets/MainLayout/images/property/02.jpg" alt="Propety Images">
                           </div>
                           <div class="widget--featProp-content">
                             <h6><a href="propert-single.html">Modern Architect </a></h6>
@@ -816,7 +816,7 @@
                       <div class="swiper-slide">
                         <div class="widget--featProp-item">
                           <div class="widget--featProp-thumb">
-                            <img src="../../assets/images/property/03.jpg" alt="Propety Images">
+                            <img src="../../assets/MainLayout/images/property/03.jpg" alt="Propety Images">
                           </div>
                           <div class="widget--featProp-content">
                             <h6><a href="propert-single.html">Alishan House</a></h6>
@@ -839,7 +839,7 @@
                   <div class="property__itemHoriz">
                     <div class="property__itemHoriz-inner">
                       <div class="property__itemHoriz-thumb">
-                        <a href="property-single.html"><img src="../../assets/images/property/01.jpg" alt="Property Images"></a>
+                        <a href="property-single.html"><img src="../../assets/MainLayout/images/property/01.jpg" alt="Property Images"></a>
                       </div>
                       <div class="property__itemHoriz-content">
                         <h6><a href="property-single.html">Alishan House</a></h6>
@@ -850,7 +850,7 @@
                   <div class="property__itemHoriz">
                     <div class="property__itemHoriz-inner">
                       <div class="property__itemHoriz-thumb">
-                        <a href="property-single.html"><img src="../../assets/images/property/02.jpg" alt="Property Images"></a>
+                        <a href="property-single.html"><img src="../../assets/MainLayout/images/property/02.jpg" alt="Property Images"></a>
                       </div>
                       <div class="property__itemHoriz-content">
                         <h6><a href="property-single.html">Modern Flat</a></h6>
@@ -861,7 +861,7 @@
                   <div class="property__itemHoriz">
                     <div class="property__itemHoriz-inner">
                       <div class="property__itemHoriz-thumb">
-                        <a href="property-single.html"><img src="../../assets/images/property/03.jpg" alt="Property Images"></a>
+                        <a href="property-single.html"><img src="../../assets/MainLayout/images/property/03.jpg" alt="Property Images"></a>
                       </div>
                       <div class="property__itemHoriz-content">
                         <h6><a href="property-single.html">Retro Vibe House</a></h6>
@@ -872,7 +872,7 @@
                   <div class="property__itemHoriz">
                     <div class="property__itemHoriz-inner">
                       <div class="property__itemHoriz-thumb">
-                        <a href="property-single.html"><img src="../../assets/images/property/04.jpg" alt="Property Images"></a>
+                        <a href="property-single.html"><img src="../../assets/MainLayout/images/property/04.jpg" alt="Property Images"></a>
                       </div>
                       <div class="property__itemHoriz-content">
                         <h6><a href="property-single.html">Eden Garden</a></h6>
@@ -883,7 +883,7 @@
                   <div class="property__itemHoriz">
                     <div class="property__itemHoriz-inner">
                       <div class="property__itemHoriz-thumb">
-                        <a href="property-single.html"><img src="../../assets/images/property/05.jpg" alt="Property Images"></a>
+                        <a href="property-single.html"><img src="../../assets/MainLayout/images/property/05.jpg" alt="Property Images"></a>
                       </div>
                       <div class="property__itemHoriz-content">
                         <h6><a href="property-single.html">Downhill House</a></h6>
@@ -904,7 +904,7 @@
                   <div class="agent__item">
                     <div class="agent__item-inner">
                       <div class="agent__item-thumb">
-                        <img src="../../assets/images/agent/03.jpg" alt="Agent Image">
+                        <img src="../../assets/MainLayout/images/agent/03.jpg" alt="Agent Image">
                       </div>
                       <div class="agent__item-content">
                         <ul class="agent__item-info">

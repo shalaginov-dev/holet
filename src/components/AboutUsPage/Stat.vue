@@ -7,7 +7,7 @@
             <div class="col">
               <div class="about__item">
                 <div class="about__item-thumb">
-                  <img src="../../assets/images/about/icon/01.png" alt="icon">
+                  <img src="../../assets/MainLayout/images/about/icon/01.png" alt="icon">
                 </div>
                 <div class="about__item-content">
                   <h5>220</h5>
@@ -18,7 +18,7 @@
             <div class="col">
               <div class="about__item">
                 <div class="about__item-thumb">
-                  <img src="../../assets/images/about/icon/02.png" alt="icon">
+                  <img src="../../assets/MainLayout/images/about/icon/02.png" alt="icon">
                 </div>
                 <div class="about__item-content">
                   <h5>169</h5>
@@ -29,7 +29,7 @@
             <div class="col">
               <div class="about__item">
                 <div class="about__item-thumb">
-                  <img src="../../assets/images/about/icon/03.png" alt="icon">
+                  <img src="../../assets/MainLayout/images/about/icon/03.png" alt="icon">
                 </div>
                 <div class="about__item-content">
                   <h5>127</h5>
@@ -40,7 +40,7 @@
             <div class="col">
               <div class="about__item">
                 <div class="about__item-thumb">
-                  <img src="../../assets/images/about/icon/04.png" alt="icon">
+                  <img src="../../assets/MainLayout/images/about/icon/04.png" alt="icon">
                 </div>
                 <div class="about__item-content">
                   <h5>100+</h5>
@@ -51,7 +51,7 @@
             <div class="col">
               <div class="about__item">
                 <div class="about__item-thumb">
-                  <img src="../../assets/images/about/icon/05.png" alt="icon">
+                  <img src="../../assets/MainLayout/images/about/icon/05.png" alt="icon">
                 </div>
                 <div class="about__item-content">
                   <h5>12</h5>

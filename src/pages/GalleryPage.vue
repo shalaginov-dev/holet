@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import Preloader from "@/assets/preloader/Preloader";
+import Preloader from "@/assets/MainLayout/preloader/Preloader";
 import SearchArea from "@/components/SearchArea";
 import PageHeader from "@/components/GalleryPage/PageHeader";
 import Gallery from "@/components/GalleryPage/Gallery";

@@ -4,7 +4,7 @@
       <div class="row ">
         <div class="col-lg-5">
           <div class="cta__thumb">
-            <img src="../../assets/images/cta/01.png" alt="CTA Image">
+            <img src="../../assets/MainLayout/images/cta/01.png" alt="CTA Image">
           </div>
         </div>
         <div class="col-lg-7">

@@ -16,7 +16,7 @@
                   <div class="row g-5">
                     <div class="col-lg-6">
                       <div class="featProp__item-thumb">
-                        <img src="../../assets/images/feat-prop/01.png" alt="Property Image">
+                        <img src="../../assets/MainLayout/images/feat-prop/01.png" alt="Property Image">
                       </div>
                     </div>
                     <div class="col-lg-6">
@@ -81,7 +81,7 @@
                   <div class="row g-5">
                     <div class="col-lg-6">
                       <div class="featProp__item-thumb">
-                        <img src="../../assets/images/feat-prop/02.png" alt="Property Image">
+                        <img src="../../assets/MainLayout/images/feat-prop/02.png" alt="Property Image">
                       </div>
                     </div>
                     <div class="col-lg-6">
@@ -146,7 +146,7 @@
                   <div class="row g-5">
                     <div class="col-lg-6">
                       <div class="featProp__item-thumb">
-                        <img src="../../assets/images/feat-prop/03.png" alt="Property Image">
+                        <img src="../../assets/MainLayout/images/feat-prop/03.png" alt="Property Image">
                       </div>
                     </div>
                     <div class="col-lg-6">

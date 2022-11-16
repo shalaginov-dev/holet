@@ -1,4 +1,4 @@
-import $ from "@/assets/js/jquery";
+import $ from "@/assets/MainLayout/js/jquery";
 // import './bootstrap.bundle.min'
 // import './fontawesome.min'
 // import './isotope.pkgd.min'

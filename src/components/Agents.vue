@@ -13,7 +13,7 @@
             <div class="agent__item">
               <div class="agent__item-inner">
                 <div class="agent__item-thumb">
-                  <img src="../assets/images/agent/01.jpg" alt="Agent Image">
+                  <img src="../assets/MainLayout/images/agent/01.jpg" alt="Agent Image">
                 </div>
                 <div class="agent__item-content">
                   <div class="agent__item-title">
@@ -54,7 +54,7 @@
             <div class="agent__item">
               <div class="agent__item-inner">
                 <div class="agent__item-thumb">
-                  <img src="../assets/images/agent/02.jpg" alt="Agent Image">
+                  <img src="../assets/MainLayout/images/agent/02.jpg" alt="Agent Image">
                 </div>
                 <div class="agent__item-content">
                   <div class="agent__item-title">
@@ -96,7 +96,7 @@
             <div class="agent__item">
               <div class="agent__item-inner">
                 <div class="agent__item-thumb">
-                  <img src="../assets/images/agent/03.jpg" alt="Agent Image">
+                  <img src="../assets/MainLayout/images/agent/03.jpg" alt="Agent Image">
                 </div>
                 <div class="agent__item-content">
                   <div class="agent__item-title">

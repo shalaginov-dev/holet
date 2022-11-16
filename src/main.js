@@ -4,7 +4,7 @@ import router from './router/router'
 import store from "@/store/store";
 import JQuery from 'jquery'
 window.$ = JQuery
-import './assets/js/main'
+import './assets/MainLayout/js/main'
 
 
 

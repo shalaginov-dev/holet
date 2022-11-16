@@ -13,7 +13,7 @@
             <div class="blog__item">
               <div class="blog__item-inner">
                 <div class="blog__item-thumb">
-                  <img src="../../assets/images/blog/01.jpg" alt="blog image">
+                  <img src="../../assets/MainLayout/images/blog/01.jpg" alt="blog image">
                   <div class="blog__item-date">
                     <h4>18</h4>
                     <p>May</p>
@@ -44,7 +44,7 @@
             <div class="blog__item">
               <div class="blog__item-inner">
                 <div class="blog__item-thumb">
-                  <img src="../../assets/images/blog/02.jpg" alt="blog image">
+                  <img src="../../assets/MainLayout/images/blog/02.jpg" alt="blog image">
                   <div class="blog__item-date">
                     <h4>18</h4>
                     <p>May</p>
@@ -75,7 +75,7 @@
             <div class="blog__item">
               <div class="blog__item-inner">
                 <div class="blog__item-thumb">
-                  <img src="../../assets/images/blog/03.jpg" alt="blog image">
+                  <img src="../../assets/MainLayout/images/blog/03.jpg" alt="blog image">
                   <div class="blog__item-date">
                     <h4>18</h4>
                     <p>May</p>

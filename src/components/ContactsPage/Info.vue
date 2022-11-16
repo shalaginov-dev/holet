@@ -7,7 +7,7 @@
             <div class="info__item">
               <div class="info__item-inner">
                 <div class="info__item-icon">
-                  <img src="../../assets/images/contact/icon/white/location.png" alt="Location icon">
+                  <img src="../../assets/MainLayout/images/contact/icon/white/location.png" alt="Location icon">
                 </div>
                 <div class="info__item-content">
                   <h6>Office Address</h6>
@@ -20,7 +20,7 @@
             <div class="info__item">
               <div class="info__item-inner">
                 <div class="info__item-icon">
-                  <img src="../../assets/images/contact/icon/white/call.png" alt="Phone icon">
+                  <img src="../../assets/MainLayout/images/contact/icon/white/call.png" alt="Phone icon">
                 </div>
                 <div class="info__item-content">
                   <h6>Phone Number</h6>
@@ -33,7 +33,7 @@
             <div class="info__item">
               <div class="info__item-inner">
                 <div class="info__item-icon">
-                  <img src="../../assets/images/contact/icon/white/mail.png" alt="Email icon">
+                  <img src="../../assets/MainLayout/images/contact/icon/white/mail.png" alt="Email icon">
                 </div>
                 <div class="info__item-content">
                   <h6>Send Email </h6>

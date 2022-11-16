@@ -4,7 +4,7 @@
       <div class="about__wrapper">
         <div class="row g-5">
           <div class="col-lg-4">
-            <div class="about__thumb"><img src="../../assets/images/about/single/01.jpg" alt="about image"></div>
+            <div class="about__thumb"><img src="../../assets/MainLayout/images/about/single/01.jpg" alt="about image"></div>
           </div>
           <div class="col-lg-8">
             <div class="about__content">

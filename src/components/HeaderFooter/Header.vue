@@ -5,7 +5,7 @@
         <div class="brand-logo d-none d-lg-inline-block">
           <div class="logo">
             <a href="index.html">
-              <img src="../../assets/images/logo/logo.png" alt="logo">
+              <img src="../../assets/MainLayout/images/logo/logo.png" alt="logo">
             </a>
           </div>
         </div>
@@ -42,7 +42,7 @@
           <div class="header-bottom">
             <div class="header-wrapper">
               <div class="mobile-logo d-lg-none">
-                <a href="index.html"><img src="../../assets/images/logo/logo.png" alt="logo"></a>
+                <a href="index.html"><img src="../../assets/MainLayout/images/logo/logo.png" alt="logo"></a>
               </div>
               <div class="menu-area">
                 <ul class="menu">

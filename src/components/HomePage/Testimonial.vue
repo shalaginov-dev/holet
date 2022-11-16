@@ -1,6 +1,6 @@
 <template>
   <section class="testimonial padding-top padding-bottom"
-           style="background-image: url(../../assets/images/testimonial/bg.jpg);">
+           style="background-image: url(../../assets/MainLayout/images/testimonial/bg.jpg);">
     <div class="container">
       <div class="section-header section-header--light">
         <div class="section-header__content">
@@ -16,17 +16,17 @@
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <div class="testimonial__authorSlider-item">
-                      <img src="../../assets/images/testimonial/author/01.png" alt="Author Image">
+                      <img src="../../assets/MainLayout/images/testimonial/author/01.png" alt="Author Image">
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="testimonial__authorSlider-item">
-                      <img src="../../assets/images/testimonial/author/02.png" alt="Author Image">
+                      <img src="../../assets/MainLayout/images/testimonial/author/02.png" alt="Author Image">
                     </div>
                   </div>
                   <div class="swiper-slide">
                     <div class="testimonial__authorSlider-item">
-                      <img src="../../assets/images/testimonial/author/03.png" alt="Author Image">
+                      <img src="../../assets/MainLayout/images/testimonial/author/03.png" alt="Author Image">
                     </div>
                   </div>
                 </div>

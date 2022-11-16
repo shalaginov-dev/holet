@@ -10,15 +10,16 @@
 </template>
 
 <script>
-import Preloader from "@/assets/preloader/Preloader";
+import Preloader from "@/assets/MainLayout/preloader/Preloader";
 import Newsletter from "@/components/Newsletter";
 import Property from "@/components/SinglePage/Property";
 import PageHeader from "@/components/SinglePage/PageHeader";
 import SearchArea from "@/components/SearchArea";
+import CustomFilter from "@/components/CustomFilter";
 
 export default {
   name: "SinglePage",
-  components: {SearchArea, PageHeader, Property, Newsletter, Preloader}
+  components: {CustomFilter, SearchArea, PageHeader, Property, Newsletter, Preloader}
 }
 </script>
 

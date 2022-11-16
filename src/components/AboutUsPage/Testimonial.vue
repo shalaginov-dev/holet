@@ -23,7 +23,7 @@
                         </div>
                         <div class="testimonial__item3-author">
                           <div class="testimonial__item3-authorThumb">
-                            <img src="../../assets/images/testimonial/author/01.png" alt="Author Image">
+                            <img src="../../assets/MainLayout/images/testimonial/author/01.png" alt="Author Image">
                           </div>
                           <div class="testimonial__item3-authorContent">
                             <h6>Jhon Doe</h6>
@@ -46,7 +46,7 @@
                         </div>
                         <div class="testimonial__item3-author">
                           <div class="testimonial__item3-authorThumb">
-                            <img src="../../assets/images/testimonial/author/01.png" alt="Author Image">
+                            <img src="../../assets/MainLayout/images/testimonial/author/01.png" alt="Author Image">
                           </div>
                           <div class="testimonial__item3-authorContent">
                             <h6>Jhon Doe</h6>
@@ -69,7 +69,7 @@
                         </div>
                         <div class="testimonial__item3-author">
                           <div class="testimonial__item3-authorThumb">
-                            <img src="../../assets/images/testimonial/author/01.png" alt="Author Image">
+                            <img src="../../assets/MainLayout/images/testimonial/author/01.png" alt="Author Image">
                           </div>
                           <div class="testimonial__item3-authorContent">
                             <h6>Jhon Doe</h6>
@@ -93,32 +93,32 @@
                 <div class="row g-3">
                   <div class="col-lg-4 col-md-3 col-sm-4 col-6">
                     <div class="testimonial__client-item">
-                      <img src="../../assets/images/testimonial/client/01.jpg" alt="Client Image">
+                      <img src="../../assets/MainLayout/images/testimonial/client/01.jpg" alt="Client Image">
                     </div>
                   </div>
                   <div class="col-lg-4 col-md-3 col-sm-4 col-6">
                     <div class="testimonial__client-item">
-                      <img src="../../assets/images/testimonial/client/02.jpg" alt="Client Image">
+                      <img src="../../assets/MainLayout/images/testimonial/client/02.jpg" alt="Client Image">
                     </div>
                   </div>
                   <div class="col-lg-4 col-md-3 col-sm-4 col-6">
                     <div class="testimonial__client-item">
-                      <img src="../../assets/images/testimonial/client/03.jpg" alt="Client Image">
+                      <img src="../../assets/MainLayout/images/testimonial/client/03.jpg" alt="Client Image">
                     </div>
                   </div>
                   <div class="col-lg-4 col-md-3 col-sm-4 col-6">
                     <div class="testimonial__client-item">
-                      <img src="../../assets/images/testimonial/client/04.jpg" alt="Client Image">
+                      <img src="../../assets/MainLayout/images/testimonial/client/04.jpg" alt="Client Image">
                     </div>
                   </div>
                   <div class="col-lg-4 col-md-3 col-sm-4 col-6">
                     <div class="testimonial__client-item">
-                      <img src="../../assets/images/testimonial/client/05.jpg" alt="Client Image">
+                      <img src="../../assets/MainLayout/images/testimonial/client/05.jpg" alt="Client Image">
                     </div>
                   </div>
                   <div class="col-lg-4 col-md-3 col-sm-4 col-6">
                     <div class="testimonial__client-item">
-                      <img src="../../assets/images/testimonial/client/06.jpg" alt="Client Image">
+                      <img src="../../assets/MainLayout/images/testimonial/client/06.jpg" alt="Client Image">
                     </div>
                   </div>
                 </div>

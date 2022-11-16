@@ -1,13 +1,13 @@
 <template>
   <div class="main-layout">
     <CustomFilter/>
-    <!--    <Header/>-->
-    <!--        <HomePage/>-->
-    <!--        <SinglePage/>-->
-    <!--        <AboutUsPage/>-->
-    <!--        <ContactsPage/>-->
-    <!--    <GalleryPage/>-->
-    <!--    <Footer/>-->
+<!--    <Header/>-->
+<!--    <HomePage/>-->
+<!--    <SinglePage/>-->
+<!--    <AboutUsPage/>-->
+<!--    <ContactsPage/>-->
+<!--    <GalleryPage/>-->
+<!--    <Footer/>-->
   </div>
 </template>
 

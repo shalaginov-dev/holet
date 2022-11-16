@@ -6,7 +6,7 @@
           <div class="swiper-slide">
             <div class="banner__item1">
               <div class="banner__item1-thumb"
-                   style="background-image:url(https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=1200)">
+                   style="background-image:url(https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?cs=srgb&dl=pexels-binyamin-mellish-186077.jpg&fm=jpg)">
                 <div class="banner__item1-content ">
                   <div class="banner__item1-contentInner bg-shape">
                     <div class="banner__item1-name">
@@ -45,7 +45,7 @@
           <div class="swiper-slide">
             <div class="banner__item1">
               <div class="banner__item1-thumb"
-                   style="background-image:url(https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=1200)">
+                   style="background-image:url(https://images.adsttc.com/media/images/5ecd/d4ac/b357/65c6/7300/009d/large_jpg/02C.jpg?1590547607)">
                 <div class="banner__item1-content ">
                   <div class="banner__item1-contentInner bg-shape">
                     <div class="banner__item1-name">
@@ -86,7 +86,7 @@
           <div class="swiper-slide">
             <div class="banner__item1">
               <div class="banner__item1-thumb"
-                   style="background-image:url(https://i.ytimg.com/vi/tArC9-RHmU4/maxresdefault.jpg)">
+                   style="background-image:url(https://cf.bstatic.com/xdata/images/hotel/max1280x900/314234927.jpg?k=21291418450e2c1802e02864677b7cf811321797b1d36aaa55e1019133f82698&o=&hp=1)">
                 <div class="banner__item1-content ">
                   <div class="banner__item1-contentInner bg-shape">
                     <div class="banner__item1-name">
