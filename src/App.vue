@@ -24,5 +24,6 @@ export default {
 </script>
 
 <style lang="scss">
-@import "styles/main";
+//@import "styles/main";
+@import "styles/Layouts/AdminLayout";
 </style>

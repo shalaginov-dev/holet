@@ -14,11 +14,11 @@
 <script>
 import Header from "@/components/HeaderFooter/Header";
 import Footer from "@/components/HeaderFooter/Footer";
-import HomePage from "@/pages/HomePage";
-import SinglePage from "@/pages/SinglePage";
-import AboutUsPage from "@/pages/AboutUsPage";
-import ContactsPage from "@/pages/ContactsPage";
-import GalleryPage from "@/pages/GalleryPage";
+import HomePage from "@/pages/Main/HomePage";
+import SinglePage from "@/pages/Main/SinglePage";
+import AboutUsPage from "@/pages/Main/AboutUsPage";
+import ContactsPage from "@/pages/Main/ContactsPage";
+import GalleryPage from "@/pages/Main/GalleryPage";
 import CustomFilter from "@/components/CustomFilter";
 
 export default {
