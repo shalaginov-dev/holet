@@ -4,7 +4,7 @@
       <div class="header-holder d-flex flex-wrap justify-content-between align-items-center">
         <div class="brand-logo d-none d-lg-inline-block">
           <div class="logo">
-            <a href="index.html">
+            <a href="/">
               <img src="../../assets/MainLayout/images/logo/logo.png" alt="logo">
             </a>
           </div>
@@ -47,52 +47,52 @@
               <div class="menu-area">
                 <ul class="menu">
                   <li>
-                    <a href="javascript:void(0);">Home</a>
-                    <ul class="submenu">
-                      <li><a href="index.html">Home 1</a></li>
-                      <li><a href="index-2.html">Home 2</a></li>
-                      <li><a href="index-3.html">Home 3</a></li>
-                      <li><a href="index-4.html">Home 4</a></li>
-                      <li><a href="index-5.html">Home 5 (Single Property)</a></li>
-                    </ul>
+                    <a href="/main">Home</a>
+<!--                    <ul class="submenu">-->
+<!--                      <li><a href="index.html">Home 1</a></li>-->
+<!--                      <li><a href="index-2.html">Home 2</a></li>-->
+<!--                      <li><a href="index-3.html">Home 3</a></li>-->
+<!--                      <li><a href="index-4.html">Home 4</a></li>-->
+<!--                      <li><a href="index-5.html">Home 5 (Single Property)</a></li>-->
+<!--                    </ul>-->
                   </li>
 
                   <li>
-                    <a href="javascript:void(0);">Properties</a>
-                    <ul class="submenu">
-                      <li><a href="property-grid.html">Property Grid</a></li>
-                      <li><a href="property-grid-sidebar.html">Property Grid <small>(With Sidebar)</small> </a></li>
-                      <li><a href="property-list-sidebar.html">Property List <small>(With Sidebar)</small> </a></li>
-                      <li><a href="property-single.html">Property single</a></li>
-                      <li><a href="property-single-2.html">Property single 2</a></li>
-                    </ul>
+                    <a href="/single">Single</a>
+<!--                    <ul class="submenu">-->
+<!--                      <li><a href="property-grid.html">Property Grid</a></li>-->
+<!--                      <li><a href="property-grid-sidebar.html">Property Grid <small>(With Sidebar)</small> </a></li>-->
+<!--                      <li><a href="property-list-sidebar.html">Property List <small>(With Sidebar)</small> </a></li>-->
+<!--                      <li><a href="property-single.html">Property single</a></li>-->
+<!--                      <li><a href="property-single-2.html">Property single 2</a></li>-->
+<!--                    </ul>-->
                   </li>
                   <li>
-                    <a href="javascript:void(0);">Agents</a>
-                    <ul class="submenu">
-                      <li><a href="agent.html">All Agents</a></li>
-                      <li><a href="agent-single.html">Agent Details</a></li>
-                    </ul>
+                    <a href="/about">About Us</a>
+<!--                    <ul class="submenu">-->
+<!--                      <li><a href="agent.html">All Agents</a></li>-->
+<!--                      <li><a href="agent-single.html">Agent Details</a></li>-->
+<!--                    </ul>-->
                   </li>
                   <li>
-                    <a href="javascript:void(0);">Pages</a>
-                    <ul class="submenu">
-                      <li><a href="about.html">About Us</a></li>
-                      <li><a href="gallery-3grid.html">Gallery 3 Col</a></li>
-                      <li><a href="gallery-4grid.html">Gallery 4 Col</a></li>
-                      <li><a href="service.html">Service</a></li>
-                      <li><a href="404.html">404 Page</a></li>
-                    </ul>
+                    <a href="/contacts">Contacts</a>
+<!--                    <ul class="submenu">-->
+<!--                      <li><a href="about.html">About Us</a></li>-->
+<!--                      <li><a href="gallery-3grid.html">Gallery 3 Col</a></li>-->
+<!--                      <li><a href="gallery-4grid.html">Gallery 4 Col</a></li>-->
+<!--                      <li><a href="service.html">Service</a></li>-->
+<!--                      <li><a href="404.html">404 Page</a></li>-->
+<!--                    </ul>-->
                   </li>
                   <li>
-                    <a href="javascript:void(0);">Blog</a>
-                    <ul class="submenu">
-                      <li><a href="blog.html">Blog</a></li>
-                      <li><a href="blog-2.html">Blog 2</a></li>
-                      <li><a href="blog-single.html">Blog Single</a></li>
-                    </ul>
+                    <a href="/gallery">GalleryPage</a>
+<!--                    <ul class="submenu">-->
+<!--                      <li><a href="blog.html">Blog</a></li>-->
+<!--                      <li><a href="blog-2.html">Blog 2</a></li>-->
+<!--                      <li><a href="blog-single.html">Blog Single</a></li>-->
+<!--                    </ul>-->
                   </li>
-                  <li><a href="contact.html">Contact</a></li>
+<!--                  <li><a href="contact.html">Contact</a></li>-->
                 </ul>
                 <a href="javascript:void(0);" class="search"><i class="icofont-search-1"></i></a>
 

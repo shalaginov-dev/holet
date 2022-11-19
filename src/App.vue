@@ -1,8 +1,6 @@
 <template>
   <div class="app-container">
-<!--    <AuthLayout/>-->
-    <AdminLayout/>
-<!--    <MainLayout/>-->
+    <router-view></router-view>
   </div>
 </template>
 
@@ -24,6 +22,6 @@ export default {
 </script>
 
 <style lang="scss">
-//@import "styles/main";
-@import "styles/Layouts/AdminLayout";
+@import "styles/main";
+//@import "styles/Layouts/AdminLayout";
 </style>

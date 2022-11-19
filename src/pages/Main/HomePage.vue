@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Header/>
     <Banner/>
     <FindProperties/>
     <FeatProperties/>
@@ -9,6 +10,7 @@
     <Blog/>
     <CTA/>
     <Newsletter/>
+    <Footer/>
   </div>
 </template>
 
@@ -23,10 +25,15 @@ import Testimonial from "@/components/HomePage/Testimonial";
 import Blog from "@/components/HomePage/Blog";
 import CTA from "@/components/HomePage/CTA";
 import Newsletter from "@/components/Newsletter";
+import Header from "@/components/HeaderFooter/Header";
+import Footer from "@/components/HeaderFooter/Footer";
 
 export default {
   name: "HomePage",
-  components: {Newsletter, CTA, Blog, Testimonial, Agents, RecentProperties, FeatProperties, FindProperties, Banner},
+  components: {
+    Footer,
+    Header,
+    Newsletter, CTA, Blog, Testimonial, Agents, RecentProperties, FeatProperties, FindProperties, Banner},
   mounted() {
     $(document).ready(function () {
       var swiper = new Swiper(".banner__slider1", {
