@@ -16,6 +16,5 @@ export default {
 </script>
 
 <style lang="scss">
-//@import "styles/admin";
-//@import "styles/main";
+@import "styles/null";
 </style>

@@ -5,12 +5,16 @@ Vue.use(VueRouter)
 
 const routes = [
     {
-        path: '/auth',
+        path: '/login',
         component: () => import( '../layouts/AuthLayout'),
         children: [
             {
                 path: '',
                 component: () => import( '../pages/Auth/LoginPage'),
+            },
+            {
+                path: '/register',
+                component: () => import( '../pages/Auth/RegisterPage'),
             }
         ]
     },

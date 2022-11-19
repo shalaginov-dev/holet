@@ -2,7 +2,6 @@
   <div class="admin-layout">
     <div id="layout-wrapper">
       <router-view></router-view>
-<!--      <MainPage/>-->
     </div>
   </div>
 </template>
