@@ -30,6 +30,6 @@ export default {
 }
 </script>
 
-<style>
-@import "../styles/Layouts/MainLayout.scss";
+<style lang="scss">
+//@import "../styles/main";
 </style>
