@@ -1,10 +1,6 @@
 <template>
   <div class="main-layout">
-    <HomePage/>
-    <SinglePage/>
-    <AboutUsPage/>
-    <ContactsPage/>
-    <GalleryPage/>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -30,6 +26,6 @@ export default {
 }
 </script>
 
-<style lang="scss">
-//@import "../styles/main";
+<style lang="css">
+/*@import "../styles/main.scss";*/
 </style>

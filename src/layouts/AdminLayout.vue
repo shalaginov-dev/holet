@@ -1,7 +1,8 @@
 <template>
   <div class="admin-layout">
     <div id="layout-wrapper">
-      <MainPage/>
+      <router-view></router-view>
+<!--      <MainPage/>-->
     </div>
   </div>
 </template>
@@ -15,6 +16,6 @@ export default {
 }
 </script>
 
-<style lang="scss">
-//@import "../styles/admin.scss";
+<style lang="css">
+@import "../styles/admin.scss";
 </style>

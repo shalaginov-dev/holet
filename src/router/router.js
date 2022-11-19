@@ -6,41 +6,51 @@ Vue.use(VueRouter)
 const routes = [
     {
         path: '/auth',
-        name: 'auth',
-        component: () => import( '../layouts/AuthLayout')
+        component: () => import( '../layouts/AuthLayout'),
+        children: [
+            {
+                path: '',
+                component: () => import( '../pages/Auth/LoginPage'),
+            }
+        ]
     },
     {
         path: '/admin',
-        name: 'admin',
-        component: () => import( '../layouts/AdminLayout')
+        component: () => import( '../layouts/AdminLayout'),
+        children: [
+            {
+                path: '',
+                component: () => import( '../pages/Admin/MainPage'),
+            }
+        ]
     },
     {
-        path: '/main',
-        name: 'home',
-        component: () => import( '../pages/Main/HomePage'),
-        alias: '/'
+        path: '/',
+        component: () => import( '../layouts/MainLayout'),
+        children: [
+            {
+                path: '',
+                component: () => import( '../pages/Main/HomePage'),
+            },
+            {
+                path: '/single',
+                component: () => import( '../pages/Main/SinglePage')
+            },
+            {
+                path: '/about',
+                component: () => import( '../pages/Main/AboutUsPage')
+            },
+            {
+                path: '/contacts',
+                component: () => import( '../pages/Main/ContactsPage')
+            },
+            {
+                path: '/gallery',
+                component: () => import( '../pages/Main/GalleryPage')
+            },
+        ]
+    },
 
-    },
-    {
-      path: '/single',
-      name: 'single',
-      component: () => import( '../pages/Main/SinglePage')
-    },
-    {
-      path: '/about',
-      name: 'about',
-      component: () => import( '../pages/Main/AboutUsPage')
-    },
-    {
-      path: '/contacts',
-      name: 'contacts',
-      component: () => import( '../pages/Main/ContactsPage')
-    },
-    {
-      path: '/gallery',
-      name: 'gallery',
-      component: () => import( '../pages/Main/GalleryPage')
-    },
 ]
 
 const router = new VueRouter({

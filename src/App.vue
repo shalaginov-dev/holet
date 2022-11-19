@@ -17,5 +17,5 @@ export default {
 
 <style lang="scss">
 //@import "styles/admin";
-@import "styles/main";
+//@import "styles/main";
 </style>
