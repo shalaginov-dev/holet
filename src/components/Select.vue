@@ -2,7 +2,7 @@
   <div class="select">
     <p
         @click="areOptionsVisible = !areOptionsVisible"
-        class="title">{{ title }}</p>
+        class="form-select" aria-label="Property Type Select">{{ title }}</p>
     <div
         class="options"
         v-if="areOptionsVisible"
