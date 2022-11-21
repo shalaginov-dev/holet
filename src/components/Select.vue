@@ -67,7 +67,14 @@ export default {
 }
 
 .title {
-  border: 1px solid #484848;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  border: 1px solid #b4b4b4;
+  color: #636667;
+  background-color: #ffffff;;
   border-radius: 2px;
   z-index: 2;
 }
@@ -77,12 +84,13 @@ export default {
 }
 
 .options {
-  border: 1px solid #494949;
+  border: 1px solid #676767;
+  color: #636667;
   position: absolute;
   top: 0;
   right: 0;
   width: 100%;
-  background-color: #7e7e7e;
+  background-color: #ffffff;
   z-index: 10;
 }
 

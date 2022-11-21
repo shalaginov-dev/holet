@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="filter-container">
     <div class="filters">
       <div class="filter-title">
-        <p>Filter</p>
+        <h1>Выберите параметры</h1>
       </div>
       <div class="select-item">
         <Select
