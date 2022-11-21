@@ -61,13 +61,13 @@ export default {
 <style scoped>
 .select {
   position: relative;
-  width: 200px;
+  width: 300px;
   cursor: pointer;
   margin-bottom: 10px;
 }
 
 .title {
-  border: 1px solid black;
+  border: 1px solid #484848;
   border-radius: 2px;
   z-index: 2;
 }
@@ -77,7 +77,7 @@ export default {
 }
 
 .options {
-  border: 1px solid black;
+  border: 1px solid #494949;
   position: absolute;
   top: 0;
   right: 0;

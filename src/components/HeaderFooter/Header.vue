@@ -47,7 +47,7 @@
               <div class="menu-area">
                 <ul class="menu">
                   <li>
-                    <a href="/main">Home</a>
+                    <a href="/">Home</a>
 <!--                    <ul class="submenu">-->
 <!--                      <li><a href="index.html">Home 1</a></li>-->
 <!--                      <li><a href="index-2.html">Home 2</a></li>-->

@@ -1,6 +1,7 @@
 .filters {
-  width: 250px;
-  height: 400px;
+  padding-bottom: 20px;
+  width: 400px;
+  height: 280px;
   background-color: #e7e7e7;
   display: flex;
   align-items: center;
@@ -11,8 +12,8 @@
 }
 
 .filter-title {
-  background-color: #272b2c;
-  width: 250px;
+  background-color: #3a3a3a;
+  width: 400px;
   height: 30px;
   margin-bottom: 20px;
   display: flex;
@@ -27,7 +28,8 @@
 }
 
 .range-slider {
-  width: 200px;
+  width: 500px;
+  //height: 20px;
   margin: auto 16px;
   text-align: center;
   position: relative;
@@ -35,7 +37,8 @@
 
 .range-slider svg, .range-slider input[type=range] {
   position: absolute;
-  left: 38px;
+  width: 300px;
+  left: 100px;
   bottom: 0;
 }
 
@@ -45,6 +48,7 @@ input[type=range]::-webkit-slider-thumb {
   top: 2px;
   margin-top: -7px;
 }
+
 input[type=range]::-webkit-slider-runnable-track {
   height: 4px;
   background-color: #ffffff;
@@ -68,4 +72,24 @@ input[type=range]::-webkit-slider-runnable-track {
   height: 200px;
   border: 1px black solid;
   box-shadow: 2px 2px 5px #888787;
+}
+
+.range-title{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  font-size: 12px;
+}
+
+.range-values{
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+.range-values input {
+  width: 115px;
+  background-color: #f6f6f6;;
+  border: 1px #4f4f4f solid;
+  margin: 0 0 5px 0;
+  border-radius: 3px;
 }

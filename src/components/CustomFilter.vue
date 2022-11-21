@@ -32,7 +32,7 @@
         <input
             type="range"
             min="0"
-            max="1000"
+            max='10000'
             step="10"
             v-model.number="minPrice"
             @change="setRangeSlider"
@@ -40,15 +40,21 @@
         <input
             type="range"
             min="0"
-            max="1000"
+            max="10000"
             step="10"
             v-model.number="maxPrice"
             @change="setRangeSlider"
         >
-        <div class="range-values">
-          <p>Price:</p>
-        </div>
       </div>
+      <div class="range-title">
+        <span>Минимальная цена:</span>
+        <span>Максимальная цена:</span>
+      </div>
+      <div class="range-values">
+        <input type="number" placeholder="мин. цена" v-model="minPrice">
+        <input type="number" placeholder="макс. цена" v-model="maxPrice">
+      </div>
+
     </div>
     <!--    <div class="posts">-->
     <!--      <div class='card' v-for="post  in filteredPosts" :key="post.id">-->
@@ -69,7 +75,7 @@ export default {
   data() {
     return {
       minPrice: 0,
-      maxPrice: 1000,
+      maxPrice: 10000,
       posts: [
         {
           name: 'House 1',
