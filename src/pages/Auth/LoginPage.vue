@@ -13,15 +13,15 @@
                         <span><img src="../../assets/AdminLayout/images/logo-dark.png" alt="" height="26"></span>
                       </a>
                     </div>
-                    <form action="mt-3" class="p-2">
+                    <div class="p-2">
                       <div class="form-group">
-                        <label for="emailaddress">Email address</label>
-                        <input class="form-control" type="email" id="emailaddress" required="" placeholder="john@deo.com">
+                        <label for="emailaddress">Email address {{form.email}}</label>
+                        <input v-model="form.email" class="form-control" type="email" id="emailaddress" required="" placeholder="john@deo.com">
                       </div>
                       <div class="form-group">
                         <a href="pages-recoverpw.html" class="text-muted float-right">Forgot your password?</a>
-                        <label for="password">Password</label>
-                        <input class="form-control" type="password" required="" id="password" placeholder="Enter your password">
+                        <label for="password">Password {{form.password}}</label>
+                        <input v-model="form.password" class="form-control" type="password" required="" id="password" placeholder="Enter your password">
                       </div>
 
                       <div class="form-group mb-4 pb-3">
@@ -31,9 +31,9 @@
                         </div>
                       </div>
                       <div class="mb-3 text-center">
-                        <button class="btn btn-primary btn-block" type="submit"> Sign In </button>
+                        <button class="btn btn-primary btn-block" @click="onSubmit"> Sign In </button>
                       </div>
-                    </form>
+                    </div>
                   </div>
                   <!-- end card-body -->
                 </div>
@@ -58,8 +58,31 @@
 </template>
 
 <script>
+import { authApi } from '/src/api/auth';
+ 
 export default {
-  name: "LoginPage"
+  name: "LoginPage",
+  data() {
+    return {
+      form: {
+        email: 'yurecblinovgelarm@gmail.com',
+        password: 'Rootgel2000'
+      }
+    }
+  },
+  methods: {
+    async onSubmit () {
+
+      try {
+        await authApi.doLogin(this.form).then(resp => {
+          window.location.href = '/admin'
+        })
+      } catch (err) {
+        console.log(err)
+      }
+
+    },
+  }
 }
 </script>
 
