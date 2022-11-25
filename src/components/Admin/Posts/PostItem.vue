@@ -1,19 +1,32 @@
 <template>
-  <div class="col-xl-3 col-lg-6">
+  <div v-if="!areOptionsVisible" class="col-xl-3 col-lg-6">
     <div class="card card-animate">
       <img class="card-img-top img-fluid" :src="img"
            alt="Card image cap">
       <div class="card-body">
-        <h5 class="mb-1"><a href="" class="text-dark">{{title}}</a></h5>
-        <p class="text-muted font-size-13 mb-0">{{type}}</p>
-        <span>{{city}}</span>
-        <p class="text-muted m-0">{{description}}</p>
-        <p class="text-muted ">Комнат: {{rooms}}</p>
-        <p>Цена: {{price}}</p>
-
-        <a href="#" class="btn btn-sm btn-primary">Редактировать</a>
+        <h5 class="mb-1"><a href="" class="text-dark">{{ title }}</a></h5>
+        <p class="text-muted font-size-13 mb-0">{{ type }}</p>
+        <span>{{ city }}</span>
+        <p class="text-muted m-0">{{ description }}</p>
+        <p class="text-muted ">Комнат: {{ rooms }}</p>
+        <p>Цена: {{ price }}</p>
+        <button class="btn btn-sm btn-primary" @click="areOptionsVisible = !areOptionsVisible">Редактировать</button>
       </div>
-    </div> <!-- end card-->
+    </div>
+  </div>
+  <div v-else class="col-xl-3 col-lg-6">
+    <div class="card card-animate align-items-center p-5">
+      <input type="file" placeholder="Image">
+      <div class="card-body">
+        <p><input type="text" placeholder="Название"></p>
+        <p><input type="text" placeholder="Тип строения"></p>
+        <p><input type="text" placeholder="Город"></p>
+        <textarea placeholder="Описание"/>
+        <p class="text-muted pt-2"><input type="number" placeholder="Количество комнат"/></p>
+        <p><input placeholder="Цена"/></p>
+        <button class="btn btn-sm btn-primary" @click="areOptionsVisible = !areOptionsVisible">Сохранить</button>
+      </div>
+    </div>
   </div>
 
 </template>
@@ -21,6 +34,12 @@
 <script>
 export default {
   name: "PostItem",
+  data() {
+    return {
+      areOptionsVisible: false
+    }
+  },
+
   props: {
     title: {
       type: String,
@@ -69,8 +88,17 @@ export default {
 </script>
 
 <style scoped>
-.card-img-top{
+.card-img-top {
   height: 250px;
   width: 320px;
+}
+
+input, textarea {
+  width: 115px;
+  background-color: #f6f6f6;;
+  border: 1px solid #b4b4b4;
+  color: #636667;
+  margin: 0 0 5px 0;
+  border-radius: 3px;
 }
 </style>
