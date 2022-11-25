@@ -8,242 +8,84 @@
         <div class="row">
           <div class="col-12">
             <div class="page-title-box d-flex align-items-center justify-content-between">
-              <h4 class="mb-0 font-size-18">Starter</h4>
-
-              <div class="page-title-right">
-                <ol class="breadcrumb m-0">
-                  <li class="breadcrumb-item"><a href="javascript: void(0);">Opatix</a></li>
-                  <li class="breadcrumb-item active">Team Members</li>
-                </ol>
-              </div>
-
+              <h4 class="mb-2 mt-2 font-size-18">Пользователи</h4>
             </div>
           </div>
         </div>
         <!-- end page title -->
+
         <div class="row">
           <div class="col-12">
-            <div class="card card-animate">
+            <div class="card">
               <div class="card-body">
-                <div class="row">
-                  <div class="col-lg-8">
-                    <form class="form-inline">
-                      <div class="form-group">
-                        <label for="inputPassword2" class="mr-2">Search: </label>
-                        <input type="search" class="form-control" id="inputPassword2" placeholder="Search...">
-                      </div>
-                      <div class="form-group mx-sm-3">
-                        <label for="status-select" class="mr-2">Sort By: </label>
-                        <select class="custom-select" id="status-select">
-                          <option selected="">All</option>
-                          <option value="1">Name</option>
-                          <option value="2">Post</option>
-                          <option value="3">Followers</option>
-                          <option value="4">Followings</option>
-                        </select>
-                      </div>
-                    </form>
-                  </div>
-                  <div class="col-lg-4">
-                    <div class="text-lg-right mt-3 mt-lg-0">
-                      <button type="button" class="btn btn-success mr-1"><i class="mdi mdi-cog"></i></button>
-                      <a href="#" class="btn btn-danger"><i class="mdi mdi-plus-circle mr-1"></i> Add New</a>
-                    </div>
-                  </div><!-- end col-->
-                </div> <!-- end row -->
-              </div>
-            </div> <!-- end card-box -->
+                <h4 class="card-title">Таблица пользователей</h4>
+                <p class="card-subtitle mb-4">
+                  Здесь вы можете редактировать пользователей
+                </p>
+
+                <table id="basic-datatable" class="table dt-responsive nowrap">
+                  <thead>
+                  <tr>
+                    <th>Имя</th>
+                    <th>Статус</th>
+                    <th>Права</th>
+                    <th>Город</th>
+                    <th>Возраст</th>
+                    <th>Продаж</th>
+                    <th></th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <UsersItem
+                      name="Иван"
+                      status="Менеджер"
+                      rights="2ур."
+                      city="Ростов"
+                      age=" 24 "
+                      price="$320800"
+                  />
+                  <UsersItem
+                      name="Егор"
+                      status="Руководитель"
+                      rights="1ур."
+                      city="Москва"
+                      age=" 43 "
+                      price="$570500"
+                  />
+                  <UsersItem
+                      name="Александр"
+                      status="Риелтор"
+                      rights="3ур."
+                      city="Сочи"
+                      age=" 30 "
+                      price="$605300"
+                  />
+                  </tbody>
+                </table>
+              </div> <!-- end card body-->
+            </div> <!-- end card -->
           </div><!-- end col-->
         </div>
-        <!-- end row -->
 
-        <div class="row">
-          <div class="col-xl-3 col-lg-6">
-            <div class="card card-animate">
-              <img class="card-img-top img-fluid" src="../../../assets/AdminLayout/images/team/team-1.jpg"
-                   alt="Card image cap">
-              <div class="card-body">
-                <h5 class="mb-1"><a href="" class="text-dark">Helen Warren</a></h5>
-                <p class="text-muted font-size-13">Founder & CEO</p>
-                <p class="text-muted">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                  moon officia aute, non cupidatat skateboard dolor brunch.
-                </p>
-
-                <a href="#" class="btn btn-sm btn-primary">Message</a>
-                <button class="btn btn-sm btn-primary btn-edit">Редактировать</button>
-              </div>
-            </div> <!-- end card-->
-          </div> <!-- end col-->
-
-          <div class="col-xl-3 col-lg-6">
-            <div class="card card-animate">
-              <img class="card-img-top img-fluid" src="../../../assets/AdminLayout/images/team/team-2.jpg"
-                   alt="Card image cap">
-              <div class="card-body">
-                <h5 class="mb-1"><a href="" class="text-dark">Kayla Lambie</a></h5>
-                <p class="text-muted font-size-13">Sr. Web Developer</p>
-                <p class="text-muted">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                  moon officia aute, non cupidatat skateboard dolor brunch.
-                </p>
-
-                <a href="#" class="btn btn-sm btn-primary">Message</a>
-                <button class="btn btn-sm btn-primary btn-edit">Редактировать</button>
-              </div>
-            </div> <!-- end card-->
-          </div> <!-- end col-->
-
-          <div class="col-xl-3 col-lg-6">
-            <div class="card card-animate">
-              <img class="card-img-top img-fluid" src="../../../assets/AdminLayout/images/team/team-3.jpg"
-                   alt="Card image cap">
-              <div class="card-body">
-                <h5 class="mb-1"><a href="" class="text-dark">Hugo Lavarack</a></h5>
-                <p class="text-muted font-size-13">Manager</p>
-                <p class="text-muted">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                  moon officia aute, non cupidatat skateboard dolor brunch.
-                </p>
-
-                <a href="#" class="btn btn-sm btn-primary">Message</a>
-                <button class="btn btn-sm btn-primary btn-edit">Редактировать</button>
-              </div>
-            </div> <!-- end card-->
-          </div> <!-- end col-->
-
-          <div class="col-xl-3 col-lg-6">
-            <div class="card card-animate">
-              <img class="card-img-top img-fluid" src="../../../assets/AdminLayout/images/team/team-4.jpg"
-                   alt="Card image cap">
-              <div class="card-body">
-                <h5 class="mb-1"><a href="" class="text-dark">Spencer Gye</a></h5>
-                <p class="text-muted font-size-13">Co-Founder</p>
-                <p class="text-muted">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                  moon officia aute, non cupidatat skateboard dolor brunch.
-                </p>
-
-                <a href="#" class="btn btn-sm btn-primary">Message</a>
-                <button class="btn btn-sm btn-primary btn-edit">Редактировать</button>
-              </div>
-            </div> <!-- end card-->
-          </div> <!-- end col-->
-        </div>
-        <!-- end row-->
-
-
-        <div class="row">
-          <div class="col-xl-3 col-lg-6">
-            <div class="card card-animate">
-              <img class="card-img-top img-fluid" src="../../../assets/AdminLayout/images/team/team-5.jpg"
-                   alt="Card image cap">
-              <div class="card-body">
-                <h5 class="mb-1"><a href="" class="text-dark">Amber Scurry</a></h5>
-                <p class="text-muted font-size-13">Web Designer</p>
-                <p class="text-muted">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                  moon officia aute, non cupidatat skateboard dolor brunch.
-                </p>
-
-                <a href="#" class="btn btn-sm btn-primary">Message</a>
-                <button class="btn btn-sm btn-primary btn-edit">Редактировать</button>
-              </div>
-            </div> <!-- end card-->
-          </div> <!-- end col-->
-
-          <div class="col-xl-3 col-lg-6">
-            <div class="card card-animate">
-              <img class="card-img-top img-fluid" src="../../../assets/AdminLayout/images/team/team-6.jpg"
-                   alt="Card image cap">
-              <div class="card-body">
-                <h5 class="mb-1"><a href="" class="text-dark">Caitlyn Gibney</a></h5>
-                <p class="text-muted font-size-13">Director</p>
-                <p class="text-muted">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                  moon officia aute, non cupidatat skateboard dolor brunch.
-                </p>
-
-                <a href="#" class="btn btn-sm btn-primary">Message</a>
-                <button class="btn btn-sm btn-primary btn-edit">Редактировать</button>
-              </div>
-            </div> <!-- end card-->
-          </div> <!-- end col-->
-
-          <div class="col-xl-3 col-lg-6">
-            <div class="card card-animate">
-              <img class="card-img-top img-fluid" src="../../../assets/AdminLayout/images/team/team-7.jpg"
-                   alt="Card image cap">
-              <div class="card-body">
-                <h5 class="mb-1"><a href="" class="text-dark">Flynn Ashby</a></h5>
-                <p class="text-muted font-size-13">Programmer</p>
-                <p class="text-muted">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                  moon officia aute, non cupidatat skateboard dolor brunch.
-                </p>
-
-                <a href="#" class="btn btn-sm btn-primary">Message</a>
-                <button class="btn btn-sm btn-primary btn-edit">Редактировать</button>
-              </div>
-            </div> <!-- end card-->
-          </div> <!-- end col-->
-
-          <div class="col-xl-3 col-lg-6">
-            <div class="card card-animate">
-              <img class="card-img-top img-fluid" src="../../../assets/AdminLayout/images/team/team-8.jpg"
-                   alt="Card image cap">
-              <div class="card-body">
-                <h5 class="mb-1"><a href="" class="text-dark">Hayden McRae</a></h5>
-                <p class="text-muted font-size-13">Webdeveloper</p>
-                <p class="text-muted">
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-                  moon officia aute, non cupidatat skateboard dolor brunch.
-                </p>
-
-                <a href="#" class="btn btn-sm btn-primary">Message</a>
-                <button class="btn btn-sm btn-primary btn-edit">Редактировать</button>
-              </div>
-            </div> <!-- end card-->
-          </div> <!-- end col-->
-        </div>
-        <!-- end row-->
-
-        <div class="row">
-          <div class="col-12">
-            <nav aria-label="Page navigation example">
-              <ul class="pagination justify-content-end">
-                <li class="page-item">
-                  <a class="page-link" href="javascript: void(0);" tabindex="-1">Previous</a>
-                </li>
-                <li class="page-item active"><a class="page-link" href="javascript: void(0);">1</a></li>
-                <li class="page-item"><a class="page-link" href="javascript: void(0);">2</a></li>
-                <li class="page-item"><a class="page-link" href="javascript: void(0);">3</a></li>
-                <li class="page-item">
-                  <a class="page-link" href="javascript: void(0);">Next</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
         <!-- end row-->
 
       </div> <!-- container-fluid -->
     </div>
     <!-- End Page-content -->
 
-
   </div>
 
 </template>
 
 <script>
+import ItemContent from "@/components/Admin/MainContent/ItemContent";
+import UsersItem from "@/components/Admin/Users/UsersItem";
 export default {
-  name: "UsersTable"
+  name: "UsersTable",
+  components: {UsersItem, ItemContent}
 }
 </script>
 
 <style scoped>
-.btn-edit {
-  margin-left: 178px;
-}
+
 </style>

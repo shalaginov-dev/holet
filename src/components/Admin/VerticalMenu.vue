@@ -19,7 +19,11 @@
             <a href="/admin" class="waves-effect"><i class='bx bx-home-smile'></i><span
                 class="badge badge-pill badge-primary float-right">3</span><span>Объекты</span></a>
           </li>
-          <li><a href="/users" class="waves-effect"><i class="bx bx-user-circle"></i><span>Пользователи</span></a>
+          <li>
+            <a href="/users" class="waves-effect"><i class="bx bx-user-circle"></i><span>Пользователи</span></a>
+          </li>
+          <li>
+            <a href="/posts" class="waves-effect"><i class="bx bx-file"></i><span>Посты</span></a>
           </li>
 
         </ul>

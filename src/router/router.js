@@ -72,6 +72,16 @@ const routes = [
         },
       },
       {
+        path: '/posts',
+        component: () => import( '../pages/Admin/PostsPage'),
+        name: 'posts',
+        meta: {
+          middleware: [
+            admin
+          ]
+        },
+      },
+      {
         path: '/rights',
         component: () => import( '../pages/ErrorPage/AdminRights'),
         name: 'admin-rights',
