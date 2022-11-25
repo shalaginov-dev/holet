@@ -4,7 +4,7 @@
     <div data-simplebar class="h-100">
 
       <div class="navbar-brand-box">
-        <a href="index.html" class="logo">
+        <a href="" class="logo">
           <img src="../../assets/AdminLayout/images/logo-dark.png" alt="logo-dark"/>
         </a>
       </div>
@@ -16,20 +16,11 @@
           <li class="menu-title">Menu</li>
 
           <li>
-            <a href="index.html" class="waves-effect"><i class='bx bx-home-smile'></i><span
+            <a href="/admin" class="waves-effect"><i class='bx bx-home-smile'></i><span
                 class="badge badge-pill badge-primary float-right">3</span><span>Объекты</span></a>
           </li>
-
-          <li>
-            <a href="javascript: void(0);" class="has-arrow waves-effect"><i class="bx bx-cookie"></i><span>UI elements</span></a>
-            <ul class="sub-menu" aria-expanded="false">
-              <li><a href="ui-buttons.html">Buttons</a></li>
-              <li><a href="ui-buttons.html">Input</a></li>
-
-            </ul>
+          <li><a href="/users" class="waves-effect"><i class="bx bx-user-circle"></i><span>Пользователи</span></a>
           </li>
-
-
 
         </ul>
       </div>

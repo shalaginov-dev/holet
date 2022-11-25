@@ -15,7 +15,7 @@ const routes = [
     component: () => import( '../layouts/AuthLayout'),
     meta: {
       middleware: [
-        admin
+        guest
       ]
     },
     children: [
@@ -25,7 +25,7 @@ const routes = [
         component: () => import( '../pages/Auth/LoginPage'),
         meta: {
           middleware: [
-            admin
+            guest
           ]
         },
       },
@@ -47,7 +47,7 @@ const routes = [
     component: () => import( '../layouts/AdminLayout'),
     meta: {
       middleware: [
-        guest
+        admin
       ]
     },
     children: [
@@ -57,7 +57,17 @@ const routes = [
         name: 'admin',
         meta: {
           middleware: [
-            guest
+            admin
+          ]
+        },
+      },
+      {
+        path: '/users',
+        component: () => import( '../pages/Admin/UsersPage'),
+        name: 'users',
+        meta: {
+          middleware: [
+            admin
           ]
         },
       },
@@ -130,6 +140,10 @@ const routes = [
       },
     ]
   },
+  {
+    path: '*',
+    component: () => import( '../pages/ErrorPage/NotFoundPage'),
+  }
 ]
 
 

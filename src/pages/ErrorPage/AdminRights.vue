@@ -1,7 +1,8 @@
+
 <template>
   <div class="adm-rights">
-    <h1>You do not have administrator rights</h1>
-    <p><a href="/login"><b>Back</b></a></p>
+    <h1>У вас нет прав администратора</h1>
+    <p><a href="/login"><b>Вернуться назад</b></a></p>
   </div>
 </template>
 

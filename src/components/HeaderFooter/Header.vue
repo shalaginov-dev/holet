@@ -47,7 +47,7 @@
               <div class="menu-area">
                 <ul class="menu">
                   <li>
-                    <a href="/">Home</a>
+                    <a href="/">Главная</a>
 <!--                    <ul class="submenu">-->
 <!--                      <li><a href="index.html">Home 1</a></li>-->
 <!--                      <li><a href="index-2.html">Home 2</a></li>-->
@@ -58,8 +58,8 @@
                   </li>
 
                   <li>
-                    <a href="/single">Single</a>
-<!--                    <ul class="submenu">-->
+                    <a href="/gallery">Галерея</a>
+                    <!--                    <ul class="submenu">-->
 <!--                      <li><a href="property-grid.html">Property Grid</a></li>-->
 <!--                      <li><a href="property-grid-sidebar.html">Property Grid <small>(With Sidebar)</small> </a></li>-->
 <!--                      <li><a href="property-list-sidebar.html">Property List <small>(With Sidebar)</small> </a></li>-->
@@ -68,14 +68,14 @@
 <!--                    </ul>-->
                   </li>
                   <li>
-                    <a href="/about">About Us</a>
+                    <a href="/single">Объявление</a>
 <!--                    <ul class="submenu">-->
 <!--                      <li><a href="agent.html">All Agents</a></li>-->
 <!--                      <li><a href="agent-single.html">Agent Details</a></li>-->
 <!--                    </ul>-->
                   </li>
                   <li>
-                    <a href="/contacts">Contacts</a>
+                    <a href="/contacts">Контакты</a>
 <!--                    <ul class="submenu">-->
 <!--                      <li><a href="about.html">About Us</a></li>-->
 <!--                      <li><a href="gallery-3grid.html">Gallery 3 Col</a></li>-->
@@ -85,7 +85,7 @@
 <!--                    </ul>-->
                   </li>
                   <li>
-                    <a href="/gallery">GalleryPage</a>
+                    <a href="/about">О нас</a>
 <!--                    <ul class="submenu">-->
 <!--                      <li><a href="blog.html">Blog</a></li>-->
 <!--                      <li><a href="blog-2.html">Blog 2</a></li>-->
