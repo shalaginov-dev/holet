@@ -12,9 +12,9 @@
         </div>
       </div>
       <div class="desc-item">
-        <p>Название: {{title}}</p>
+        <p>{{name}}</p>
         <p>Описание: {{description}}</p>
-        <p>Стоимость: {{price}}</p>
+        <p>Стоимость: {{ price }}</p>
       </div>
     </div>
   </div>
@@ -25,12 +25,27 @@ export default {
   name: "GalleryItem",
   data(){
     return{
-      title: 'Дом',
-      description: 'Хороший дом',
-      price: '123.763'
     }
   },
   props:{
+    name: {
+      type: String,
+      default() {
+        return ''
+      }
+    },
+    description: {
+      type: String,
+      default() {
+        return ''
+      }
+    },
+    price: {
+      type: Number,
+      default() {
+        return 0
+      }
+    },
     img: {
       type: String,
       default() {

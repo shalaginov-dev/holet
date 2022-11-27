@@ -1,6 +1,5 @@
 <template>
-  <section class="testimonial padding-top padding-bottom"
-           style="background-image: url(../../assets/MainLayout/images/testimonial/bg.jpg);">
+  <section class="testimonial padding-top padding-bottom">
     <div class="container">
       <div class="section-header section-header--light">
         <div class="section-header__content">

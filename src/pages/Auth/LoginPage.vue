@@ -32,6 +32,7 @@
                       </div>
                       <div class="mb-3 text-center">
                         <button class="btn btn-primary btn-block" @click="onSubmit"> Войти </button>
+                        <button class="btn btn-primary btn-block" @click="logOut"> Exit </button>
                       </div>
                     </div>
                   </div>
@@ -72,7 +73,6 @@ export default {
   },
   methods: {
     async onSubmit () {
-
       try {
         await authApi.doLogin(this.form).then(resp => {
           // window.location.href = '/admin'
@@ -80,8 +80,10 @@ export default {
       } catch (err) {
         console.log(err)
       }
-
     },
+    logOut(){
+      authApi.doLogout()
+    }
   }
 }
 </script>

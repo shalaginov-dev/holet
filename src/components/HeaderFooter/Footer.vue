@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <div class="footer__top padding-top padding-bottom"
-         style="background-image:url(../../assets/MainLayout/images/footer/bg.jpg)">
+         style="background-image:url('#')">
       <div class="container">
         <div class="footer__wrapper">
           <div class="row gy-5 gx-4">
