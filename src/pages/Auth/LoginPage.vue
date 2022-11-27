@@ -15,23 +15,23 @@
                     </div>
                     <div class="p-2">
                       <div class="form-group">
-                        <label for="emailaddress">Email address {{form.email}}</label>
+                        <label for="emailaddress">Адрес электронной почты {{form.email}}</label>
                         <input v-model="form.email" class="form-control" type="email" id="emailaddress" required="" placeholder="john@deo.com">
                       </div>
                       <div class="form-group">
-                        <a href="pages-recoverpw.html" class="text-muted float-right">Forgot your password?</a>
-                        <label for="password">Password {{form.password}}</label>
+                        <a href="pages-recoverpw.html" class="text-muted float-right">Забыли ваш пароль?</a>
+                        <label for="password">Пароль {{form.password}}</label>
                         <input v-model="form.password" class="form-control" type="password" required="" id="password" placeholder="Enter your password">
                       </div>
 
                       <div class="form-group mb-4 pb-3">
                         <div class="custom-control custom-checkbox checkbox-primary">
                           <input type="checkbox" class="custom-control-input" id="checkbox-signin">
-                          <label class="custom-control-label" for="checkbox-signin">Remember me</label>
+                          <label class="custom-control-label" for="checkbox-signin">Запомнить меня</label>
                         </div>
                       </div>
                       <div class="mb-3 text-center">
-                        <button class="btn btn-primary btn-block" @click="onSubmit"> Sign In </button>
+                        <button class="btn btn-primary btn-block" @click="onSubmit"> Войти </button>
                       </div>
                     </div>
                   </div>
@@ -41,7 +41,7 @@
 
                 <div class="row mt-4">
                   <div class="col-sm-12 text-center">
-                    <p class="text-white-50 mb-0">Create an account? <a href="/register" class="text-white-50 ml-1"><b>Sign Up</b></a></p>
+                    <p class="text-white-50 mb-0">У вас еще нет аккаунта? <a href="/register" class="text-white-50 ml-1"><b>Создать</b></a></p>
                   </div>
                 </div>
 
@@ -59,7 +59,7 @@
 
 <script>
 import { authApi } from '/src/api/auth';
- 
+
 export default {
   name: "LoginPage",
   data() {
@@ -75,7 +75,7 @@ export default {
 
       try {
         await authApi.doLogin(this.form).then(resp => {
-          window.location.href = '/admin'
+          // window.location.href = '/admin'
         })
       } catch (err) {
         console.log(err)

@@ -1,5 +1,5 @@
 <template>
-  <div v-if="!areOptionsVisible" class="col-xl-3 col-lg-6">
+  <div v-if="!editMode" class="col-xl-3 col-lg-6">
     <div class="card card-animate">
       <img class="card-img-top img-fluid" :src="img"
            alt="Card image cap">
@@ -10,7 +10,7 @@
         <p class="text-muted m-0">{{ description }}</p>
         <p class="text-muted ">Комнат: {{ rooms }}</p>
         <p>Цена: {{ price }}</p>
-        <button class="btn btn-sm btn-primary" @click="areOptionsVisible = !areOptionsVisible">Редактировать</button>
+        <button class="btn btn-sm btn-primary" @click="editMode = !editMode">Редактировать</button>
       </div>
     </div>
   </div>
@@ -24,7 +24,7 @@
         <textarea placeholder="Описание"/>
         <p class="text-muted pt-2"><input type="number" placeholder="Количество комнат"/></p>
         <p><input placeholder="Цена"/></p>
-        <button class="btn btn-sm btn-primary" @click="areOptionsVisible = !areOptionsVisible">Сохранить</button>
+        <button class="btn btn-sm btn-primary" @click="editMode = !editMode">Сохранить</button>
       </div>
     </div>
   </div>
@@ -36,7 +36,7 @@ export default {
   name: "PostItem",
   data() {
     return {
-      areOptionsVisible: false
+      editMode: false
     }
   },
 

@@ -15,6 +15,7 @@ export const authApi = {
         password: formData.password
       }).then(response => {
         let token = response.data.token;
+        localStorage.setItem('role', response.data.role)
         localStorage.setItem('token', token);
         console.log(token);
         return response
@@ -24,16 +25,16 @@ export const authApi = {
     }
   },
 
+  doLogout(){
+    localStorage.removeItem('token')
+    localStorage.removeItem('role')
+  },
+
   doRegister(data) {
     const formData = new FormData();
-    formData.append("email", data.email)
     formData.append("name", data.email)
+    formData.append("email", data.email)
     formData.append("password", data.password)
-    formData.append("password_confirmation", data.confirmPassword)
-    formData.append("user_name", data.user_name)
-    formData.append("user_lastname", data.lastName)
-    formData.append("image", data.image)
-    console.log(data.image)
     try {
       return httpClient({
         method: "post",
