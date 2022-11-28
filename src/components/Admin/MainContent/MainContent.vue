@@ -8,7 +8,16 @@
           <div class="col-12">
             <div class="page-title-box d-flex align-items-center justify-content-between">
               <h4 class="mb-0 font-size-18">Объекты</h4>
-              <button class="adm-btn">Добавить объект</button>
+              <button
+                  v-if="!addPostBlockVisible"
+                  @click="addPostBlockVisible = !addPostBlockVisible"
+                  class="adm-btn"
+              >Добавить объект
+              </button>
+              <AddPostBlock
+                  v-else
+                  @closeAddPostBlock="closeAddPostBlock"
+              />
 
               <div class="page-title-right">
                 <ol class="breadcrumb m-0">
@@ -41,32 +50,19 @@
                     <th>Количество комнат</th>
                     <th>Цена</th>
                     <th></th>
+                    <th></th>
                   </tr>
                   </thead>
                   <tbody>
                   <ItemContent
-                      name="Гараж"
-                      description="Жилье для семьи, с удобствами"
+                      v-for="post in items"
+                      :id="post.id"
+                      :name="post.name"
+                      :description="post.description"
                       type="Жилой гараж"
                       city="Ростов"
                       rooms=" 5 "
-                      price="$320800"
-                  />
-                  <ItemContent
-                      name="Квартира"
-                      description="В самом центре столицы"
-                      type="Квартира"
-                      city="Москва"
-                      rooms=" 3 "
-                      price="$570500"
-                  />
-                  <ItemContent
-                      name="Загородный дом"
-                      description="Живописное место"
-                      type="Дом"
-                      city="Сочи"
-                      rooms=" 6 "
-                      price="$605300"
+                      :price="post.price"
                   />
                   </tbody>
                 </table>
@@ -101,9 +97,32 @@
 
 <script>
 import ItemContent from "@/components/Admin/MainContent/ItemContent";
+import AddPostBlock from "@/components/AddPostBlock";
+import {postsAPI} from "@/api/posts-api";
+
 export default {
   name: "MainContent",
-  components: {ItemContent}
+  components: {AddPostBlock, ItemContent},
+  data() {
+    return {
+      addPostBlockVisible: false,
+      items: [],
+    }
+  },
+  methods: {
+    getItems() {
+      postsAPI.getPosts().then(res => {
+        this.$data.items = res
+        console.log(res)
+      })
+    },
+    closeAddPostBlock() {
+      this.addPostBlockVisible = false
+    },
+  },
+  async mounted() {
+    await this.getItems()
+  },
 }
 </script>
 
@@ -120,7 +139,7 @@ export default {
   box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%)
 }
 
-.adm-btn:hover{
+.adm-btn:hover {
   background-color: #116ac0;
   box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%);;
 }

@@ -10,13 +10,13 @@ export const postsAPI = {
     getPosts() {
         return httpClient.get(`/posts/getall`).then(res => res.data)
     },
-    deletePosts(itemId) {
+    deletePost(itemId) {
         return httpClient.delete(`/posts/del${itemId}`).then(res => res.data)
     },
-    createPosts(RequestItemObj) {
+    createPost(RequestItemObj) {
         return httpClient.post(`/posts/save`, RequestItemObj).then(res => res.data)
     },
-    updatePosts(itemId, RequestItemObj) {
+    updatePost(itemId, RequestItemObj) {
         return httpClient.put(`/posts/edit${itemId}`, RequestItemObj).then(res => res.data)
     },
 }
