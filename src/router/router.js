@@ -13,31 +13,15 @@ const routes = [
   {
     path: '/login',
     component: () => import( '../layouts/AuthLayout'),
-    meta: {
-      middleware: [
-        guest
-      ]
-    },
+
     children: [
       {
-        path: '',
-        name: 'login',
+        path: '/login',
         component: () => import( '../pages/Auth/LoginPage'),
-        meta: {
-          middleware: [
-            guest
-          ]
-        },
       },
       {
         path: '/register',
         component: () => import( '../pages/Auth/RegisterPage'),
-        name: 'register',
-        meta: {
-          middleware: [
-            admin
-          ]
-        },
       }
     ]
   },
@@ -45,20 +29,12 @@ const routes = [
   {
     path: '/admin',
     component: () => import( '../layouts/AdminLayout'),
-    meta: {
-      middleware: [
-        admin
-      ]
-    },
     children: [
       {
-        path: '',
+        path: '/admin',
         component: () => import( '../pages/Admin/MainPage'),
-        name: 'admin',
         meta: {
-          middleware: [
-            admin
-          ]
+          auth: ['manager']
         },
       },
       {
@@ -66,9 +42,7 @@ const routes = [
         component: () => import( '../pages/Admin/UsersPage'),
         name: 'users',
         meta: {
-          middleware: [
-            admin
-          ]
+          auth: ['admin']
         },
       },
       {
@@ -76,77 +50,48 @@ const routes = [
         component: () => import( '../pages/Admin/PostsPage'),
         name: 'posts',
         meta: {
-          middleware: [
-            admin
-          ]
+          auth: ['admin']
         },
       },
       {
         path: '/rights',
         component: () => import( '../pages/ErrorPage/AdminRights'),
         name: 'admin-rights',
+        meta: {
+          auth: ['admin']
+        },
       }
     ]
   },
-  
+
   {
     path: '/',
     component: () => import( '../layouts/MainLayout'),
-    meta: {
-      middleware: [
-        auth
-      ]
-    },
     children: [
       {
         path: '',
         component: () => import( '../pages/Main/HomePage'),
         name: 'home',
-        meta: {
-          middleware: [
-            auth
-          ]
-        },
       },
       {
         path: '/single',
         component: () => import( '../pages/Main/SinglePage'),
         name: 'single',
-        meta: {
-          middleware: [
-            auth
-          ]
-        },
       },
       {
         path: '/about',
         component: () => import( '../pages/Main/AboutUsPage'),
         name: 'about',
-        meta: {
-          middleware: [
-            auth
-          ]
-        },
       },
       {
         path: '/contacts',
         component: () => import( '../pages/Main/ContactsPage'),
         name: 'contacts',
-        meta: {
-          middleware: [
-            auth
-          ]
-        },
       },
       {
         path: '/gallery',
         component: () => import( '../pages/Main/GalleryPage'),
         name: 'gallery',
-        meta: {
-          middleware: [
-            auth
-          ]
-        },
       },
     ]
   },
@@ -164,20 +109,20 @@ const router = new VueRouter({
 })
 
 router.beforeEach((to, from, next) => {
-  if (!to.meta.middleware) {
-    return next()
+  const { auth } = to.meta;
+  const role = 'manager'
+  console.log(auth, role)
+
+  if (auth) {
+    if (!role) {
+      return next({ path: '/login' });
+    }
+    if (auth.length && !auth.includes(role)) {
+      return next({path: '/single'});
+    }
   }
-  const middleware = to.meta.middleware
-  const context = {
-    to,
-    from,
-    next,
-    store
-  }
-  return middleware[0]({
-    ...context,
-    next: middlewarePipeline(context, middleware, 1)
-  })
+  next()
+
 })
 
 export default router

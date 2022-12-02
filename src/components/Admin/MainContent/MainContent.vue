@@ -36,10 +36,27 @@
             <div class="card">
               <div class="card-body">
                 <h4 class="card-title">База недвижимости</h4>
-                <p class="card-subtitle mb-4">
-                  Здесь вы можете редактировать объявления
-                </p>
-
+                <!--                <p class="card-subtitle mb-4">-->
+                <!--                  Здесь вы можете редактировать объявления-->
+                <!--                </p>-->
+                <table id="mobile-datatable" class="table dt-responsive nowrap">
+                  <thead>
+                  <tr>
+                    <th>Название</th>
+                    <th>Название</th>
+                  </tr>
+                  </thead>
+                  <MobileItemContent
+                      v-for="post in items"
+                      :id="post.id"
+                      :name="post.name"
+                      :description="post.description"
+                      type="Жилой гараж"
+                      city="Ростов"
+                      rooms=" 5 "
+                      :price="post.price"
+                  />
+                </table>
                 <table id="basic-datatable" class="table dt-responsive nowrap">
                   <thead>
                   <tr>
@@ -74,23 +91,6 @@
       </div> <!-- container-fluid -->
     </div>
 
-    <!-- End Page-content -->
-
-    <footer class="footer">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-6">
-            2020 © Opatix.
-          </div>
-          <div class="col-sm-6">
-            <div class="text-sm-right d-none d-sm-block">
-              Design & Develop by Myra
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-
   </div>
 
 </template>
@@ -99,10 +99,11 @@
 import ItemContent from "@/components/Admin/MainContent/ItemContent";
 import AddPostBlock from "@/components/AddPostBlock";
 import {postsAPI} from "@/api/posts-api";
+import MobileItemContent from "@/components/Admin/MainContent/MobileItemContent";
 
 export default {
   name: "MainContent",
-  components: {AddPostBlock, ItemContent},
+  components: {MobileItemContent, AddPostBlock, ItemContent},
   data() {
     return {
       addPostBlockVisible: false,
@@ -142,5 +143,45 @@ export default {
 .adm-btn:hover {
   background-color: #116ac0;
   box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%);;
+}
+
+.mobile-item-block {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+@media screen and (min-width: 850px) {
+  #mobile-datatable{
+    display: none;
+  }
+}
+@media screen and (max-width: 850px) {
+  .adm-btn {
+    width: 150px;
+    margin: 0 auto;
+  }
+
+  .container-fluid {
+    padding: 0;
+  }
+
+  .card-body {
+    padding: 2px;
+  }
+
+  .page-title-right {
+    display: none;
+  }
+
+  h4 {
+    display: none;
+  }
+
+  #basic-datatable {
+    display: none;
+  }
 }
 </style>
