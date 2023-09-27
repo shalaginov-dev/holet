@@ -7,7 +7,7 @@ import s from './page.module.scss'
 
 export default function SignupForm() {
     const handleSubscribeButton = () => {
-        alert('heeellllooooo!')
+        alert('heeellllooooo!232')
     }
 
     return (
