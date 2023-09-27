@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 
 import img from '../../public/images/illustration-sign-up-desktop.svg'
@@ -5,6 +6,10 @@ import orangeIcon from '../../public/images/icon-list.svg'
 import s from './page.module.scss'
 
 export default function SignupForm() {
+    const handleSubscribeButton = () => {
+        alert('heeellllooooo!')
+    }
+
     return (
         <main className={s.signupBlock}>
             <div className={s.textBlock}>
@@ -28,7 +33,7 @@ export default function SignupForm() {
                     <label htmlFor="email">Email address</label>
                     <input placeholder='email@company.com' type="email" name='email'/>
                 </div>
-                <button>Subscribe to monthly newsletter</button>
+                <button onClick={() => {handleSubscribeButton()}}>Subscribe to monthly newsletter</button>
             </div>
             <div>
                 <Image src={img} alt='image'></Image>

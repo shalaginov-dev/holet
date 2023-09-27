@@ -295,7 +295,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1440px;
+  min-width: 1440px;
   height: 100vh;
   background-color: hsl(235, 18%, 26%);
 }
