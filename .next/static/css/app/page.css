@@ -58,8 +58,8 @@
 .page_signupBlock__iFWRu .page_textBlock__wOxEU button {
   border: none;
   background: hsl(4, 100%, 67%);
-  background: linear-gradient(90deg, rgb(248, 85, 128) 25%, rgb(255, 109, 96) 62%, rgb(255, 105, 60) 100%);
-  box-shadow: 0 15px 30px rgba(248, 85, 49, 0.5);
+  background: hsl(234, 29%, 20%);
+  box-shadow: none;
   border-radius: 5px;
   height: 55px;
   font-size: 0.92em;
@@ -68,7 +68,6 @@
 }
 .page_signupBlock__iFWRu .page_textBlock__wOxEU button:hover {
   scale: 102%;
-}
-.page_signupBlock__iFWRu .page_textBlock__wOxEU button:active {
-  background: hsl(234, 29%, 20%);
+  background: linear-gradient(90deg, rgb(248, 85, 128) 25%, rgb(255, 109, 96) 62%, rgb(255, 105, 60) 100%);
+  box-shadow: 0 15px 30px rgba(248, 85, 49, 0.5);
 }
