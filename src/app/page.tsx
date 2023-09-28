@@ -9,12 +9,13 @@ import {ChangeEvent, useState} from "react";
 
 export default function SignupForm() {
     const [inputValue, setInputValue] = useState('')
+    const [error, setError] = useState<boolean>(true)
+
     const handleChangeInput = (event: ChangeEvent<HTMLInputElement>) => {
         setInputValue(event.currentTarget.value)
     }
     const handleSubscribeButton = () => {
-        // @ts-ignore
-        console.log(EmailValidator.validate(inputValue))
+        setError(EmailValidator.validate(inputValue))
     }
 
     return (
@@ -37,9 +38,12 @@ export default function SignupForm() {
                     </div>
                 </div>
                 <div className={s.emailForm}>
-                    <label htmlFor="email">Email address</label>
-                    <input placeholder='email@company.com' type="email" name='email' value={inputValue}
-                           onChange={(e)=> handleChangeInput(e)}/>
+                    <div className={s.emailLabel}>
+                        <label htmlFor="email">Email address</label><span hidden={error}>Valid email required</span>
+                    </div>
+                    <input className={error ? '' : s.errorInput} placeholder='email@company.com' type="email"
+                           name='email' value={inputValue}
+                           onChange={(e) => handleChangeInput(e)}/>
                 </div>
                 <button onClick={() => {
                     handleSubscribeButton()

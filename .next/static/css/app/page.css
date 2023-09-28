@@ -39,6 +39,15 @@
   font-weight: bold;
   font-size: 12px;
 }
+.page_signupBlock__iFWRu .page_textBlock__wOxEU .page_emailForm__BDMUp .page_emailLabel__KMk74 {
+  display: flex;
+  -webkit-justify-content: space-between;
+}
+.page_signupBlock__iFWRu .page_textBlock__wOxEU .page_emailForm__BDMUp span {
+  color: rgba(218, 3, 21, 0.6);
+  font-size: 12px;
+  font-weight: bold;
+}
 .page_signupBlock__iFWRu .page_textBlock__wOxEU .page_emailForm__BDMUp input {
   background: none;
   padding: 10px 20px;
@@ -54,6 +63,15 @@
 }
 .page_signupBlock__iFWRu .page_textBlock__wOxEU .page_emailForm__BDMUp input:hover {
   scale: 102%;
+}
+.page_signupBlock__iFWRu .page_textBlock__wOxEU .page_emailForm__BDMUp .page_errorInput__T3vmG {
+  background: rgba(255, 99, 71, 0.2);
+  border: 1.5px solid #c20415;
+}
+.page_signupBlock__iFWRu .page_textBlock__wOxEU .page_emailForm__BDMUp .page_errorInput__T3vmG::placeholder {
+  color: #d50000;
+  font-size: 1.1em;
+  opacity: 1;
 }
 .page_signupBlock__iFWRu .page_textBlock__wOxEU button {
   border: none;
