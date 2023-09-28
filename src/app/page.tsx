@@ -1,25 +1,38 @@
 'use client'
 import Image from "next/image";
+import {ChangeEvent, useState} from "react";
 import * as EmailValidator from 'email-validator'
 
 import img from '../../public/images/illustration-sign-up-desktop.svg'
 import orangeIcon from '../../public/images/icon-list.svg'
+import {SimpleModal} from "@/components/Modal";
 import s from './page.module.scss'
-import {ChangeEvent, useState} from "react";
 
 export default function SignupForm() {
     const [inputValue, setInputValue] = useState('')
-    const [error, setError] = useState<boolean>(true)
+    const [error, setError] = useState<boolean>(false)
+    const [modal, setModal] = useState<boolean>(false)
 
     const handleChangeInput = (event: ChangeEvent<HTMLInputElement>) => {
         setInputValue(event.currentTarget.value)
+        setError(false)
     }
     const handleSubscribeButton = () => {
-        setError(EmailValidator.validate(inputValue))
+        if (!EmailValidator.validate(inputValue)) setError(true)
+        else {
+            setError(false)
+            setModal(true)
+
+        }
+    }
+    const handleModalWindow = () => {
+        setModal(false)
+        setInputValue('')
     }
 
     return (
         <main className={s.signupBlock}>
+            <SimpleModal active={modal} value={inputValue} onConfirmCLick={()=> handleModalWindow()}/>
             <div className={s.textBlock}>
                 <h1>Stay updated!</h1>
                 <p>Join 60,000+ product managers receiving monthly updates on:</p>
@@ -39,9 +52,9 @@ export default function SignupForm() {
                 </div>
                 <div className={s.emailForm}>
                     <div className={s.emailLabel}>
-                        <label htmlFor="email">Email address</label><span hidden={error}>Valid email required</span>
+                        <label htmlFor="email">Email address</label><span hidden={!error}>Valid email required</span>
                     </div>
-                    <input className={error ? '' : s.errorInput} placeholder='email@company.com' type="email"
+                    <input className={error ? s.errorInput : ''} placeholder='email@company.com' type="email"
                            name='email' value={inputValue}
                            onChange={(e) => handleChangeInput(e)}/>
                 </div>

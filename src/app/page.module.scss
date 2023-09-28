@@ -21,7 +21,6 @@
 
     p {
       line-height: 26px;
-      //font-size: 0.9em;
     }
 
     .bulletBlock {
@@ -72,14 +71,18 @@
         }
 
         &:hover {
+          transition: 0.05s all;
           scale: 102%;
         }
       }
       .errorInput{
         background: rgba(255, 99, 71, 0.2);
         border: 1.5px solid #c20415;
+        &:focus::placeholder{
+          color: rgba(213, 0, 0, 0.6);
+        }
         &::placeholder{
-          color: #d50000;
+          color: rgb(213, 0, 0);
           font-size: 1.1em;
           opacity: 1;
         }
@@ -98,6 +101,7 @@
       cursor: pointer;
 
       &:hover {
+        transition: 0.05s all;
         scale: 102%;
         background: linear-gradient(90deg, rgb(248, 85, 128) 25%, rgb(255, 109, 96) 62%, rgb(255, 105, 60) 100%);
         box-shadow: 0 15px 30px rgba(248, 85, 49, 0.5);

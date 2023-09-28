@@ -1,3 +1,85 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/components/Modal.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Modal_modal__muTf8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: hsl(235, 18%, 26%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s;
+  z-index: 999;
+}
+.Modal_modal__muTf8 .Modal_modalContent__SlFu_ {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+  width: 30em;
+  height: 540px;
+  padding: 60px 55px;
+  border-radius: 32px;
+  background-color: white;
+  transform: scale(0.5);
+  transition: 0.4s all;
+}
+.Modal_modal__muTf8 .Modal_modalContent__SlFu_ img {
+  margin-bottom: 1.2em;
+}
+.Modal_modal__muTf8 .Modal_modalContent__SlFu_ h1 {
+  font-size: 3.5em;
+  color: hsl(234, 29%, 20%);
+}
+.Modal_modal__muTf8 .Modal_modalContent__SlFu_ p {
+  color: hsl(234, 29%, 20%);
+  margin: 20px 0;
+  line-height: 24px;
+}
+@media (max-width: 760px) {
+  .Modal_modal__muTf8 .Modal_modalContent__SlFu_ p {
+    font-size: 18px;
+    margin: 15px 0 5px;
+  }
+}
+@media (max-width: 760px) {
+  .Modal_modal__muTf8 .Modal_modalContent__SlFu_ {
+    width: 80vw;
+    padding: 10px;
+  }
+}
+.Modal_modal__muTf8 button {
+  border: none;
+  background: hsl(4, 100%, 67%);
+  background: hsl(234, 29%, 20%);
+  box-shadow: none;
+  border-radius: 5px;
+  height: 55px;
+  width: 100%;
+  font-size: 0.92em;
+  font-weight: bold;
+  cursor: pointer;
+}
+.Modal_modal__muTf8 button:hover {
+  transition: 0.05s all;
+  scale: 102%;
+  background: linear-gradient(90deg, rgb(248, 85, 128) 25%, rgb(255, 109, 96) 62%, rgb(255, 105, 60) 100%);
+  box-shadow: 0 15px 30px rgba(248, 85, 49, 0.5);
+}
+
+.Modal_modal__muTf8.Modal_active__uQxxe {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.Modal_modalContent__SlFu_.Modal_active__uQxxe {
+  transform: scale(1);
+}
 /*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./src/app/page.module.scss ***!
   \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -62,14 +144,18 @@
   outline: none;
 }
 .page_signupBlock__iFWRu .page_textBlock__wOxEU .page_emailForm__BDMUp input:hover {
+  transition: 0.05s all;
   scale: 102%;
 }
 .page_signupBlock__iFWRu .page_textBlock__wOxEU .page_emailForm__BDMUp .page_errorInput__T3vmG {
   background: rgba(255, 99, 71, 0.2);
   border: 1.5px solid #c20415;
 }
+.page_signupBlock__iFWRu .page_textBlock__wOxEU .page_emailForm__BDMUp .page_errorInput__T3vmG:focus::placeholder {
+  color: rgba(213, 0, 0, 0.6);
+}
 .page_signupBlock__iFWRu .page_textBlock__wOxEU .page_emailForm__BDMUp .page_errorInput__T3vmG::placeholder {
-  color: #d50000;
+  color: rgb(213, 0, 0);
   font-size: 1.1em;
   opacity: 1;
 }
@@ -85,6 +171,7 @@
   cursor: pointer;
 }
 .page_signupBlock__iFWRu .page_textBlock__wOxEU button:hover {
+  transition: 0.05s all;
   scale: 102%;
   background: linear-gradient(90deg, rgb(248, 85, 128) 25%, rgb(255, 109, 96) 62%, rgb(255, 105, 60) 100%);
   box-shadow: 0 15px 30px rgba(248, 85, 49, 0.5);
