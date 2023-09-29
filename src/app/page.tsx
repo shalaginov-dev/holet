@@ -65,7 +65,8 @@ export default function SignupForm() {
                 </button>
             </div>
             <div className={s.imgBlock}>
-                <Image src={window.screen.width >=   768 ? img : mobileImg} alt='image'></Image>
+                <Image priority className={s.mobileImg} src={mobileImg} alt='mobileImg'></Image>
+                <Image priority className={s.img} src={img} alt='image'></Image>
             </div>
         </main>
     )

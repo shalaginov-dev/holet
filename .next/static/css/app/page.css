@@ -199,6 +199,9 @@
   background: linear-gradient(90deg, rgb(248, 85, 128) 25%, rgb(255, 109, 96) 62%, rgb(255, 105, 60) 100%);
   box-shadow: 0 15px 30px rgba(248, 85, 49, 0.5);
 }
+.page_signupBlock__iFWRu .page_imgBlock__aAG3w .page_mobileImg__wkGoh {
+  display: none;
+}
 @media (max-width: 768px) {
   .page_signupBlock__iFWRu {
     flex-direction: column-reverse;
@@ -221,5 +224,11 @@
   }
   .page_signupBlock__iFWRu .page_textBlock__wOxEU .page_bulletBlock__TfYmk div, .page_signupBlock__iFWRu .page_textBlock__wOxEU p div {
     align-items: start;
+  }
+  .page_signupBlock__iFWRu .page_imgBlock__aAG3w .page_img__lP0lj {
+    display: none;
+  }
+  .page_signupBlock__iFWRu .page_imgBlock__aAG3w .page_mobileImg__wkGoh {
+    display: inline-block;
   }
 }
