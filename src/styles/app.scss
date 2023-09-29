@@ -9,5 +9,9 @@ body {
   min-width: 1440px;
   height: 100vh;
   background-color: $charcoalGrey;
+  @media (max-width: 760px) {
+    min-width: 375px;
+    height: auto;
+  }
 }
 

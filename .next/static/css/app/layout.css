@@ -299,3 +299,9 @@ body {
   height: 100vh;
   background-color: hsl(235, 18%, 26%);
 }
+@media (max-width: 760px) {
+  body {
+    min-width: 375px;
+    height: auto;
+  }
+}
