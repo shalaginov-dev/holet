@@ -12,7 +12,7 @@ import s from './page.module.scss'
 export default function SignupForm() {
     const [inputValue, setInputValue] = useState('')
     const [error, setError] = useState<boolean>(false)
-    const [modal, setModal] = useState<boolean>(false)
+    const [modal, setModal] = useState<boolean>(true)
 
     const handleChangeInput = (event: ChangeEvent<HTMLInputElement>) => {
         setInputValue(event.currentTarget.value)
