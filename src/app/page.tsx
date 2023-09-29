@@ -4,6 +4,7 @@ import {ChangeEvent, useState} from "react";
 import * as EmailValidator from 'email-validator'
 
 import img from '../../public/images/illustration-sign-up-desktop.svg'
+import mobileImg from '../../public/images/illustration-sign-up-mobile.svg'
 import orangeIcon from '../../public/images/icon-list.svg'
 import {SimpleModal} from "@/components/Modal";
 import s from './page.module.scss'
@@ -30,12 +31,9 @@ export default function SignupForm() {
         setInputValue('')
     }
 
-    // @ts-ignore
-    // const view = visualViewport.width
-
     return (
         <main className={s.signupBlock}>
-            <SimpleModal active={modal} value={inputValue} onConfirmCLick={() => handleModalWindow()}/>
+            <SimpleModal active={modal} value={inputValue} onConfirmCLick={()=> handleModalWindow()}/>
             <div className={s.textBlock}>
                 <h1>Stay updated!</h1>
                 <p>Join 60,000+ product managers receiving monthly updates on:</p>
@@ -67,7 +65,7 @@ export default function SignupForm() {
                 </button>
             </div>
             <div className={s.imgBlock}>
-                <Image src={img} alt='image'></Image>
+                <Image src={window.screen.width >=   768 ? img : mobileImg} alt='image'></Image>
             </div>
         </main>
     )
