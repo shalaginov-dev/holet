@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import iconSuccess from '../../public/images/icon-success.svg'
 import s from './Modal.module.scss'
+import React from "react";
 
 interface ModalProps {
     active: boolean
@@ -27,7 +28,7 @@ interface ModalProps {
 
 export function SimpleModal({active, value, onActiveModalClick, onConfirmCLick}: ModalProps) {
     return (
-        <div className={active ? `${s.modal} ${s.active}` : s.modal}>
+        <div  className={active ? `${s.modal} ${s.active}` : s.modal}>
             <div className={active ? `${s.modalContent} ${s.active}` : s.modalContent}
                  onClick={e => e.stopPropagation()}>
                 <Image src={iconSuccess} alt={'success icon'}></Image>
@@ -36,7 +37,8 @@ export function SimpleModal({active, value, onActiveModalClick, onConfirmCLick}:
                     A confirmation email has been sent to <b>{value}</b>.
                     Please open it and click the button inside to confirm your subscription.
                 </p>
-                    <button className='button pay-btn' onClick={() => onConfirmCLick()}>Dismiss message</button>
+                <button  className='button pay-btn' onClick={() => onConfirmCLick()}>Dismiss message
+                </button>
             </div>
         </div>
     )

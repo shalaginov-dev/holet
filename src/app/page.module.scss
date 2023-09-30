@@ -8,7 +8,7 @@
   border-radius: 32px;
 
 
-  .textBlock {
+  .formBlock {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -41,16 +41,17 @@
       display: flex;
       flex-direction: column;
 
+      .emailLabel {
+        display: flex;
+        -webkit-justify-content: space-between;
+      }
+
       label {
         margin: 0 0 7px 0;
         font-weight: bold;
         font-size: 12px;
       }
 
-      .emailLabel {
-        display: flex;
-        -webkit-justify-content: space-between;
-      }
 
       span {
         color: rgba(218, 3, 21, 0.6);
@@ -113,8 +114,9 @@
       }
     }
   }
-  .imgBlock{
-    .mobileImg{
+
+  .imgBlock {
+    .mobileImg {
       display: none;
     }
   }
@@ -125,7 +127,7 @@
     height: 100%;
     padding: 0;
     border-radius: 0;
-    .textBlock {
+    .formBlock {
       padding: 0 10px;
       height: 75vh;
       width: 100%;
@@ -143,11 +145,12 @@
         }
       }
     }
-    .imgBlock{
-      .img{
+    .imgBlock {
+      .img {
         display: none;
       }
-      .mobileImg{
+
+      .mobileImg {
         display: inline-block;
       }
     }
