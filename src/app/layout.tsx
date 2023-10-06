@@ -1,8 +1,7 @@
 import type {Metadata} from 'next'
-import {Inter, Roboto} from 'next/font/google'
+import {Roboto} from 'next/font/google'
 import '../styles/app.scss'
 
-const inter = Inter({subsets: ['latin']})
 const roboto = Roboto({
     weight: ['400', '700'],
     subsets: ['latin']
