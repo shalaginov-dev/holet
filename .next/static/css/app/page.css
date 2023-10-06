@@ -135,49 +135,50 @@
 .page_signupBlock__iFWRu .page_formBlock__MJkLz .page_bulletBlock__TfYmk div img {
   margin-right: 17px;
 }
-.page_signupBlock__iFWRu .page_formBlock__MJkLz .page_emailForm__BDMUp {
+.page_signupBlock__iFWRu .page_formBlock__MJkLz .page_submitForm__i91mD {
   display: flex;
   flex-direction: column;
 }
-.page_signupBlock__iFWRu .page_formBlock__MJkLz .page_emailForm__BDMUp .page_emailLabel__KMk74 {
+.page_signupBlock__iFWRu .page_formBlock__MJkLz .page_submitForm__i91mD .page_emailLabel__KMk74 {
   display: flex;
   -webkit-justify-content: space-between;
 }
-.page_signupBlock__iFWRu .page_formBlock__MJkLz .page_emailForm__BDMUp label {
+.page_signupBlock__iFWRu .page_formBlock__MJkLz .page_submitForm__i91mD label {
   margin: 0 0 7px 0;
   font-weight: bold;
   font-size: 12px;
 }
-.page_signupBlock__iFWRu .page_formBlock__MJkLz .page_emailForm__BDMUp span {
+.page_signupBlock__iFWRu .page_formBlock__MJkLz .page_submitForm__i91mD span {
   color: rgba(218, 3, 21, 0.6);
   font-size: 12px;
   font-weight: bold;
 }
-.page_signupBlock__iFWRu .page_formBlock__MJkLz .page_emailForm__BDMUp input {
+.page_signupBlock__iFWRu .page_formBlock__MJkLz .page_submitForm__i91mD input {
   background: none;
   padding: 10px 20px;
+  margin-bottom: 24px;
   border: 1px solid black;
   border-radius: 8px;
   height: 55px;
   color: hsl(234, 29%, 20%);
   opacity: 50%;
 }
-.page_signupBlock__iFWRu .page_formBlock__MJkLz .page_emailForm__BDMUp input:focus {
+.page_signupBlock__iFWRu .page_formBlock__MJkLz .page_submitForm__i91mD input:focus {
   opacity: 100%;
   outline: none;
 }
-.page_signupBlock__iFWRu .page_formBlock__MJkLz .page_emailForm__BDMUp input:hover {
+.page_signupBlock__iFWRu .page_formBlock__MJkLz .page_submitForm__i91mD input:hover {
   transition: 0.05s all;
   scale: 102%;
 }
-.page_signupBlock__iFWRu .page_formBlock__MJkLz .page_emailForm__BDMUp .page_errorInput__T3vmG {
+.page_signupBlock__iFWRu .page_formBlock__MJkLz .page_submitForm__i91mD .page_errorInput__T3vmG {
   background: rgba(255, 99, 71, 0.2);
   border: 1.5px solid #c20415;
 }
-.page_signupBlock__iFWRu .page_formBlock__MJkLz .page_emailForm__BDMUp .page_errorInput__T3vmG:focus::placeholder {
+.page_signupBlock__iFWRu .page_formBlock__MJkLz .page_submitForm__i91mD .page_errorInput__T3vmG:focus::placeholder {
   color: rgba(213, 0, 0, 0.6);
 }
-.page_signupBlock__iFWRu .page_formBlock__MJkLz .page_emailForm__BDMUp .page_errorInput__T3vmG::placeholder {
+.page_signupBlock__iFWRu .page_formBlock__MJkLz .page_submitForm__i91mD .page_errorInput__T3vmG::placeholder {
   color: rgb(213, 0, 0);
   font-size: 1.1em;
   opacity: 1;

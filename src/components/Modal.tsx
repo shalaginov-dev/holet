@@ -10,7 +10,7 @@ interface ModalProps {
     onConfirmCLick: () => void
 }
 
-export function SimpleModal({active, value, onActiveModalClick, onConfirmCLick}: ModalProps) {
+export function Modal({active, value, onActiveModalClick, onConfirmCLick}: ModalProps) {
     return (
         <div  className={active ? `${s.modal} ${s.active}` : s.modal}>
             <div className={active ? `${s.modalContent} ${s.active}` : s.modalContent}
